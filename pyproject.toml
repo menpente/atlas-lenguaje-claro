@@ -1,0 +1,42 @@
+[project]
+name = "atlas-lenguaje-claro"
+version = "0.1.0"
+description = "Atlas Iberoamericano del Lenguaje Claro — pipeline de intake, codificacion y build editorial"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "pydantic>=2.7",
+    "pandera>=0.20",
+    "pandas>=2.2",
+    "pyarrow>=16.0",
+    "jinja2>=3.1",
+    "pdfplumber>=0.11",
+    "python-docx>=1.1",
+    "google-api-python-client>=2.130",
+    "google-auth>=2.29",
+    "google-auth-oauthlib>=1.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.5",
+    "pytest>=8.2",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/atlas"]
