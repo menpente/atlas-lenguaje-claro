@@ -27,3 +27,15 @@ Puerto Rico se incluye en el universo (ficha, mapas, anexos) pero se excluye de 
 `data/coding/rubric.md` fija un ancla observable por cada indicador × nivel (0–4) para los 8 pilares (120 anclas). Regla de diseño: el salto de nivel 3 a nivel 4 siempre exige un tipo de evidencia distinto al del nivel 3 (aplicación medida, actualización documentada, adopción externa verificable), no solo "más volumen" del mismo tipo de evidencia — para reducir la subjetividad del codificador en el escalón más alto, que es el que más tienta a sobrepuntuar por impresión general.
 
 Pendiente explícito para P6: si la doble codificación del 20% muestra Krippendorff's α < 0.67, revisar primero la redacción de las anclas donde haya desacuerdo sistemático entre codificadores antes de asumir que el desacuerdo es sobre el país y no sobre el criterio.
+
+## 2026-07-13 — P2: intake de Drive (captura interactiva, no script reproducible)
+
+Con el propietario se decidió priorizar velocidad sobre reproducibilidad para el primer manifiesto: en lugar de esperar a que exista una credencial de service account, se usó el conector de Drive ya autorizado en esta sesión para enumerar la carpeta del Atlas y sus 7 subcarpetas, y cachear el texto de los 12 archivos existentes en `data/raw/{file_id}.txt`.
+
+**Lo que esto es:** una foto fija (`src/atlas/intake/build_manifest_snapshot.py`) que reconstruye `data/interim/drive_manifest.parquet` a partir de una lista de entradas capturada a mano el 2026-07-13, con el texto de cada archivo ya cacheado en disco.
+
+**Lo que esto NO es:** el `drive_sync.py` idempotente que describe el plan (sección 4, criterio de aceptación de P2: "re-running `make intake` on an unchanged Drive produces a byte-identical manifest"). Ese script está escrito (`src/atlas/intake/drive_sync.py`, usa `google-api-python-client` con `GOOGLE_APPLICATION_CREDENTIALS`) pero no se ha podido ejecutar ni probar en este entorno porque no hay credenciales de service account disponibles. Por tanto, el criterio de aceptación formal de P2 (idempotencia verificada por rerun) queda **pendiente**, no cumplido, hasta que el propietario provisione la credencial y alguien ejecute `make intake` con ella.
+
+**Limitación conocida:** `COPIA BD DBeaver.xlsx` (base de contactos, ~280+ personas) es demasiado grande para una sola llamada de lectura del conector interactivo; solo se cacheó un snippet parcial (`data/raw/1nRWn8rBwBtyiOSdMZwssUZ_Fgm2Th6I_.txt`, marcado explícitamente como parcial). La recuperación completa de ese archivo queda pendiente para cuando `drive_sync.py` corra con credenciales propias (descarga binaria + `pandas.read_excel`, sin límite de tokens de una respuesta de chat).
+
+**Hallazgo relevante para P3:** `Leyes españolas.xlsx` contiene URLs oficiales (BOE, boletines autonómicos) y en varios casos una cita textual del articulado en la columna `Observaciones` — es una fuente mucho mejor para `fuente_file_id` + `cita` verbatim que la prosa narrativa de los capítulos .docx, que no incluye URLs. La extracción de P3 debería priorizar las hojas de cálculo sobre los capítulos narrativos cuando ambas cubran el mismo país/norma.

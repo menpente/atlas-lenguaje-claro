@@ -43,7 +43,14 @@ make test      # ruff + pytest
 
 ## Estado
 
-- **P0 Scaffold:** hecho — repo, uv, Makefile, CI, esquemas.
-- **P1 Decisiones + rubric:** decisiones resueltas (arriba); `rubric.md`
-  y `country_universe.csv` pendientes.
-- P2 en adelante: ver plan.
+- **P0 Scaffold:** hecho.
+- **P1 Decisiones + rubric:** hecho — `rubric.md` (120 anclas) y
+  `country_universe.csv`.
+- **P2 Drive intake:** parcial. `data/interim/drive_manifest.parquet` y
+  `data/raw/*.txt` están poblados (12 archivos) a partir de una captura
+  interactiva con el conector de Drive de la sesión, no de un rerun del
+  `drive_sync.py` credencializado (que existe pero no se ha podido
+  ejecutar sin una service account). Ver `atlas/metodologia.qmd` para el
+  detalle — el criterio de aceptación formal de P2 (idempotencia
+  verificada) sigue pendiente.
+- P3 en adelante: ver plan.
