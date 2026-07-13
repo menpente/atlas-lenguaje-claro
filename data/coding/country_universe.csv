@@ -1,0 +1,24 @@
+iso3,nombre,soberania,incluir_en_indice_numerico,notas
+ARG,Argentina,soberano,true,
+BOL,Bolivia,soberano,true,
+BRA,Brasil,soberano,true,Miembro pleno del marco iberoamericano (decision propietario 2026-07-13); portugues como idioma de busqueda
+CHL,Chile,soberano,true,
+COL,Colombia,soberano,true,
+CRI,Costa Rica,soberano,true,
+CUB,Cuba,soberano,true,
+ECU,Ecuador,soberano,true,
+SLV,El Salvador,soberano,true,
+ESP,España,soberano,true,
+USA,Estados Unidos,soberano,true,Se codifica el nivel federal; nota metodologica sobre Plain Writing Act 2010
+GTM,Guatemala,soberano,true,
+HTI,Haití,soberano,true,Incluido tras union de listas del indice (decision propietario 2026-07-13); frances/creole haitiano como idiomas de busqueda ademas de espanol
+HND,Honduras,soberano,true,
+MEX,México,soberano,true,
+NIC,Nicaragua,soberano,true,
+PAN,Panamá,soberano,true,
+PRY,Paraguay,soberano,true,
+PER,Perú,soberano,true,
+PRI,Puerto Rico,no_soberano,false,Territorio de EEUU sin potestad legislativa nacional plena; ficha propia y presencia en mapas/anexos pero excluido del indice numerico y del semaforo agregado (ver rubric.md, seccion Alcance)
+DOM,República Dominicana,soberano,true,
+URY,Uruguay,soberano,true,
+VEN,Venezuela,soberano,true,

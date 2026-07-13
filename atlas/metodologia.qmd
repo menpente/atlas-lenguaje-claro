@@ -1,0 +1,29 @@
+---
+title: "Metodología"
+lang: es
+---
+
+Este capítulo registra, en orden cronológico, cada decisión metodológica tomada durante la construcción del Atlas — no un resumen final, sino el log de decisiones tal como se fueron tomando (instrucción del plan de ejecución, sección 10).
+
+## 2026-07-13 — P0: alcance y arranque
+
+Al iniciar el scaffold del proyecto se auditó la carpeta de Drive (`1rRJA1bVXezmB4i_uzVy0bp2eFHJL31t8`) antes de escribir código, porque el plan v1 asumía que las subcarpetas estaban "efectivamente vacías". No lo estaban: existen borradores de capítulo para Leyes e Instituciones, un manuscrito casi completo (`TT Atlas_Panhispanico_Lenguaje_Claro_COMPLETO_Saltos.docx`) con registros reales de proyectos por país, una base de contactos (`COPIA BD DBeaver.xlsx`), y una hoja `Leyes españolas.xlsx`. Se decidió que P2/P3 deben tratar estos borradores como fuentes primarias a extraer, no como texto final a copiar. También se detectó que existe una carpeta `7. Conclusiones` sin uso en el mapeo de pilares del plan, y que no hay una carpeta dedicada a "Publicaciones" — pendiente de resolver dónde vive el material fuente de ese pilar cuando se ejecute P2.
+
+## 2026-07-13 — P1: decisiones del propietario (§2 del plan)
+
+Antes de escribir la rúbrica se resolvieron las cuatro decisiones que el plan marcaba explícitamente como no delegables a Claude Code. Para las dos primeras se presentó al propietario evidencia documental encontrada en Drive, no solo la ambigüedad abstracta descrita en el plan v1:
+
+1. **Universo de países.** Se encontraron dos listas oficiales distintas ya en Drive: el documento *Índice del Atlas* (21 países nombrados + EEUU, incluye Haití, no incluye Puerto Rico) y la hoja *Índice Atlas.xlsx* (22 entradas, incluye Puerto Rico y una entrada separada "Estados Unidos", no incluye Haití). Decisión: unión de ambas listas — **23 entidades** (`data/coding/country_universe.csv`), con Puerto Rico marcado como caso no soberano (ver más abajo).
+2. **Marco Iberoamericano vs. hispanohablante.** Ambas listas de Drive ya incluían Brasil. Decisión: el Atlas adopta marco **iberoamericano**, con Brasil como miembro pleno del índice numérico. Los textos que digan "entorno hispanohablante" deben corregirse a "iberoamericano" en la redacción de capítulos (pendiente para P8).
+3. **Capítulos nuevos (Herramientas, Ciudadanía).** Aceptados como pilares 7 y 8, con la misma estructura de 3 indicadores × 5 niveles que los 6 pilares ya redactados en el manuscrito existente.
+4. **Licencia.** CC-BY 4.0 para texto/datos (`LICENSE-DATA`), MIT para código (`LICENSE-CODE`).
+
+### Puerto Rico: tratamiento metodológico
+
+Puerto Rico se incluye en el universo (ficha, mapas, anexos) pero se excluye de `incluir_en_indice_numerico` en `country_universe.csv` y, por tanto, del semáforo agregado entre países. Motivo: los indicadores de los pilares Leyes e Instituciones asumen potestad legislativa y administrativa nacional propia (ej. "estatuto vinculante *nacional*", "unidad *nacional*"), de la que Puerto Rico carece por su estatus de territorio no incorporado de EEUU — no es un juicio sobre la relevancia de sus iniciativas de lenguaje claro, sino sobre la comparabilidad directa de esos dos indicadores con los de países soberanos. Se documentará explícitamente en la ficha de Puerto Rico y en la introducción del semáforo (P7/P8) para que no se lea como una omisión no explicada.
+
+### Rúbrica v1
+
+`data/coding/rubric.md` fija un ancla observable por cada indicador × nivel (0–4) para los 8 pilares (120 anclas). Regla de diseño: el salto de nivel 3 a nivel 4 siempre exige un tipo de evidencia distinto al del nivel 3 (aplicación medida, actualización documentada, adopción externa verificable), no solo "más volumen" del mismo tipo de evidencia — para reducir la subjetividad del codificador en el escalón más alto, que es el que más tienta a sobrepuntuar por impresión general.
+
+Pendiente explícito para P6: si la doble codificación del 20% muestra Krippendorff's α < 0.67, revisar primero la redacción de las anclas donde haya desacuerdo sistemático entre codificadores antes de asumir que el desacuerdo es sobre el país y no sobre el criterio.
