@@ -52,9 +52,21 @@ class RecordBase(BaseModel):
 
 
 class TipoLey(StrEnum):
+    """Ampliado en P3: el 4-valor original no cubría las categorías reales
+    encontradas en las fuentes (resoluciones, órdenes, circulares, directivas
+    de la UE, convenios, cartas de derechos, proyectos de ley aún no vigentes).
+    """
+
     ley = "ley"
     decreto = "decreto"
     reglamento = "reglamento"
+    resolucion = "resolucion"
+    orden = "orden"
+    circular = "circular"
+    directiva = "directiva"
+    convenio = "convenio"
+    carta_derechos = "carta_derechos"
+    proyecto_ley = "proyecto_ley"
     norma_privada = "norma_privada"
 
 

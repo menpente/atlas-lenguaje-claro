@@ -53,4 +53,11 @@ make test      # ruff + pytest
   ejecutar sin una service account). Ver `atlas/metodologia.qmd` para el
   detalle — el criterio de aceptación formal de P2 (idempotencia
   verificada) sigue pendiente.
-- P3 en adelante: ver plan.
+- **P3 Extracción:** hecho para los 5 pilares con fuente disponible
+  (Leyes, Proyectos, Cursos, Instituciones, Encuentros) vía parsers
+  deterministas por regex (`src/atlas/intake/extract.py`), no LLM — ver
+  `atlas/metodologia.qmd`. 1024 registros candidatos en
+  `data/interim/records/`, todos con `fuente_file_id` + `cita` verbatim,
+  pendientes de revisión humana (P4). Publicaciones/Herramientas/
+  Ciudadanía siguen sin registros: no hay fuente todavía.
+- P4 en adelante: ver plan.
