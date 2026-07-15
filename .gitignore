@@ -3,7 +3,10 @@ __pycache__/
 .venv/
 .pytest_cache/
 .ruff_cache/
-data/raw/*
-!data/raw/.gitkeep
+# data/raw/ caches Drive text so extract.py and its tests are reproducible
+# in a clean checkout (CI included). Only the contacts spreadsheet is
+# excluded: it's the one cached file with real people's phone numbers and
+# emails, and no extractor uses it (see metodologia.qmd, P2 privacy note).
+data/raw/1nRWn8rBwBtyiOSdMZwssUZ_Fgm2Th6I_.txt
 _site/
 .quarto/

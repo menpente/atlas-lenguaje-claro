@@ -20,9 +20,16 @@ def test_manifest_snapshot_covers_leyes_and_instituciones_folders():
     assert "5. Instituciones" in folders
 
 
+# Contacts spreadsheet (COPIA BD DBeaver.xlsx): deliberately excluded from
+# git (real people's phone numbers/emails) and from every extractor.
+_NO_CACHE_EXPECTED = {"1nRWn8rBwBtyiOSdMZwssUZ_Fgm2Th6I_"}
+
+
 def test_every_manifest_file_has_a_raw_cache():
     df = build()
     for file_id in df["file_id"]:
+        if file_id in _NO_CACHE_EXPECTED:
+            continue
         assert (DATA_RAW / f"{file_id}.txt").exists(), file_id
 
 
