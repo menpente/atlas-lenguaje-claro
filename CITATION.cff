@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Si usa este Atlas, cítelo así:"
+title: "Atlas Iberoamericano del Lenguaje Claro"
+type: dataset
+authors:
+  - name: "Rubén de la Fuente / DelaFuente.AI"
+date-released: "2026-07-13"
+license:
+  - "CC-BY-4.0"
+  - "MIT"
+repository-code: "https://github.com/menpente/sandbox/tree/main/atlas-lenguaje-claro"
+abstract: >
+  Atlas editorial del lenguaje claro en el espacio iberoamericano: mapas
+  temáticos, fichas de país, semáforo de implantación y anexos generados
+  a partir de registros verificados con procedencia trazable
+  (fuente_file_id + cita verbatim). Estado a la fecha de publicación:
+  cobertura parcial y desigual entre países (ver atlas/metodologia.qmd);
+  la fiabilidad de la codificación (doble codificación independiente,
+  Krippendorff's alpha) no se ha verificado todavía — ver
+  data/coding/adjudication.md antes de citar cifras del semáforo como
+  comparables entre países.

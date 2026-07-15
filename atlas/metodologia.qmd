@@ -111,3 +111,31 @@ Se generaron `atlas/_quarto.yml`, `atlas/index.qmd`, los 8 capítulos (`atlas/ca
 **Las fichas de país no incluyen población, PIB ni idiomas** — deliberadamente. El plan pide esos datos, pero no se han recolectado en ninguna fase anterior y el `Ejemplo país COLOMBIA.docx` de Drive los deja en blanco. Cada ficha dice explícitamente "no disponible" en vez de inventar una cifra de población o una lista de lenguas cooficiales.
 
 **Los capítulos de Publicaciones, Academia, Herramientas y Ciudadanía dicen explícitamente "sin fuente documental todavía"** en vez de simular contenido editorial — coherente con que sus indicadores de codificación (P5) están marcados `insufficient_evidence` en los 23 países.
+
+## 2026-07-13 — P9: NO iniciado (gateado por P6)
+
+El plan condiciona explícitamente el Estudio B a que "la codificación del Atlas sea estable" — es decir, a que P6 haya pasado. No ha pasado (ver arriba). Extender la codificación a un universo global de ~60 países y correlacionarla con HDI/PIB/WGI/PIAAC sobre una base cuya fiabilidad nunca se verificó produciría un estudio con apariencia de rigor estadístico (bootstrap, FDR, tipología por clustering) construido sobre datos de entrada no validados. Se decidió no crear el repositorio `pldi-correlates/` ni recolectar el universo global todavía. Cuando P6 se cierre de verdad, retomar esta fase.
+
+## 2026-07-13 — P10: preparado parcialmente, sin publicar
+
+Completado: `LICENSE-CODE` (MIT) y `LICENSE-DATA` (CC-BY 4.0) desde P0; `CITATION.cff` y `data/DATA_DICTIONARY.md` en esta fase, documentando honestamente en el propio `CITATION.cff` que la fiabilidad de la codificación no está verificada.
+
+**No ejecutado, deliberadamente: el registro del DOI en Zenodo.** Es una acción externa e irreversible (un DOI es permanente) que además requiere una cuenta y credenciales que no están disponibles en este entorno. Publicar un DOI permanente para un dataset cuya fase de fiabilidad (P6) está explícitamente marcada como no completada sería publicar como si fuera definitivo algo que el propio proyecto documenta como pendiente de verificación. Cuando el propietario decida publicar, debe hacerlo él mismo (o pedir explícitamente que se automatice con sus credenciales), y idealmente después de cerrar P6.
+
+## Resumen del estado al cierre de esta sesión (2026-07-13)
+
+| Fase | Estado |
+|---|---|
+| P0 Scaffold | Hecho |
+| P1 Decisiones + rubric | Hecho |
+| P2 Drive intake | Parcial — manifiesto y caché reales, pero vía captura interactiva, no el script credencializado |
+| P3 Extracción | Hecho para 5 de 8 pilares (los que tienen fuente) |
+| P4 Revisión | Control de calidad automatizado, **no** revisión humana |
+| P5 Codificación | Hecho, por regla determinista documentada (coder = modelo, no persona) |
+| P6 Fiabilidad | **No completado** — falta un segundo codificador independiente |
+| P7 Semáforo + índice | Hecho |
+| P8 Atlas | Generado, **render de Quarto sin verificar**, sin mapas |
+| P9 Study B | **No iniciado** — gateado por P6 |
+| P10 Release | Licencias + CITATION.cff + diccionario de datos hechos; **DOI de Zenodo no registrado** |
+
+**Lectura para el propietario:** el pipeline completo funciona de extremo a extremo con datos reales y trazables — nada se ha inventado en ningún paso — pero dos garantías de calidad que el propio plan exige explícitamente (revisión humana en P4, fiabilidad inter-codificador en P6) no se han cumplido, porque cumplirlas de verdad requiere una persona distinta de este modelo. Antes de tratar el semáforo o el índice como una medición fiable y publicable, alguien debe: (1) revisar al menos las 328 filas marcadas `confianza="baja"`, y (2) hacer la doble codificación real de una muestra y calcular Krippendorff's α.

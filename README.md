@@ -76,6 +76,11 @@ make test      # ruff + pytest
   23 fichas, 4 anexos), pero **el render no se ha podido verificar**
   (Quarto CLI no instalado en este entorno). Sin mapas geoespaciales
   (fuera de alcance de esta sesión).
-- **P9 Study B / P10 Release:** ver `atlas/metodologia.qmd` — ambos
-  gateados por el P6 pendiente; no ejecutados. `LICENSE-CODE`/
-  `LICENSE-DATA` ya cubren la parte de licencia de P10.
+- **P9 Study B:** no iniciado — el plan lo condiciona explícitamente a
+  que P6 haya pasado.
+- **P10 Release:** `CITATION.cff` y `data/DATA_DICTIONARY.md` añadidos;
+  licencias ya cubiertas desde P0. **DOI de Zenodo deliberadamente no
+  registrado** — es una acción externa e irreversible que además
+  requiere credenciales que no existen en este entorno.
+
+Ver la tabla resumen de las 10 fases al final de `atlas/metodologia.qmd`.
