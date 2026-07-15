@@ -1,0 +1,42 @@
+# Honduras {#sec-hnd}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | sin datos | sin datos |
+| Instituciones | 1.0 | rojo |
+| Proyectos | sin datos | sin datos |
+| Publicaciones | sin datos | sin datos |
+| Formación | 1.0 | rojo |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: 25.0/100 · **Cobertura de evidencia**: 8% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+Sin leyes verificadas todavía para este país.
+
+### Instituciones registradas
+
+- Academia Hondureña de la Lengua (otro)
+- Centro Cultural de España en Tegucigalpa (otro)
+- Colegio de Ingenieros Mecánicos, Electricistas y Químicos de Honduras (CIMEQH) (asociacion)
+- Coordinadora de Instituciones Privadas por las Niñas, Niños, Adolescentes, Jóvenes y sus Derechos (COIPRODEN) (otro)
+- Instituto Hondureño del Transporte Terrestre (IHTT) (instituto)
+- Universidad Nacional de Agricultura (universidad)
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.

@@ -1,0 +1,39 @@
+# Costa Rica {#sec-cri}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | sin datos | sin datos |
+| Instituciones | 1.5 | rojo |
+| Proyectos | 2.0 | ámbar |
+| Publicaciones | sin datos | sin datos |
+| Formación | 1.5 | rojo |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: 41.7/100 · **Cobertura de evidencia**: 21% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+- **Ley N.° 10.554, Ley Marco de Acceso a la Información Pública** (ley, 2024) — [http://www.pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?param1=NRTC&nValor1=1&nValor2=103157&nValor3=143061&strTipM=TC](http://www.pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?param1=NRTC&nValor1=1&nValor2=103157&nValor3=143061&strTipM=TC)
+
+### Instituciones registradas
+
+- Gobierno de Costa Rica (gobierno)
+- Instituto de Investigaciones Lingüísticas de la UCR (instituto)
+- Poder Judicial de Costa Rica (poder_judicial)
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.

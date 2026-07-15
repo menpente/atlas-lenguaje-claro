@@ -1,0 +1,79 @@
+# Colombia {#sec-col}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | 2.0 | ámbar |
+| Instituciones | 2.5 | ámbar |
+| Proyectos | 3.0 | verde |
+| Publicaciones | sin datos | sin datos |
+| Formación | 3.0 | verde |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: 65.6/100 · **Cobertura de evidencia**: 33% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+- **Ley 1712 de 2014 Congreso de la República de Colombia** (ley, 2014) — [https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=56882](https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=56882)
+- **Proyecto de Ley 193 de 2023C - "Por medio de la cual se establecen medidas para promover, difundir y facilitar el uso del lenguaje claro y se dictan otras disposiciones":** (proyecto_ley) — [https://www.camara.gov.co/lenguaje-claro-1](https://www.camara.gov.co/lenguaje-claro-1)
+- **Ley Estatutaria 1757 de 2015 de Participación Ciudadana** (ley, 2015) — [https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65335](https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65335)
+- **Ley 2195 de 2022 "Por medio de la cual se adoptan medidas en materia de transparencia, prevención y lucha contra la corrupción y se dictan otras disposiciones"** (ley, 2022) — [https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=175606](https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=175606)
+- **Decreto 1008 de 2018 "Por el cual se establecen los lineamientos generales de la política de Gobierno Digital y se subroga el capítulo 1 del título 9 de la parte 2 del libro 2 del Decreto 1078 de 2015, Decreto Único Reglamentario del sector de Tecnologías de la Información y las Comunicaciones"** (decreto, 2018) — [https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=86902](https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=86902)
+- **Resolución 1519 de 2020 "Por la cual se definen los estándares y directrices para publicar la información señalada en la Ley 1712 del 2014 y se definen los requisitos en materia de acceso a la información pública, accesibilidad web, seguridad digital y datos abiertos"** (resolucion, 2020) — [https://www.suin-juriscol.gov.co/viewDocument.asp?id=30044657](https://www.suin-juriscol.gov.co/viewDocument.asp?id=30044657)
+- **Ley 2153 de 2023 "Por medio de la cual se establecen medidas para promover, difundir y facilitar el uso del lenguaje claro y se dictan otras disposiciones".** (ley) — [https://www.camara.gov.co/sites/default/files/2023-09/PL.193-2023C%20%28LENGUAJE%20CLARO%29.pdf](https://www.camara.gov.co/sites/default/files/2023-09/PL.193-2023C%20%28LENGUAJE%20CLARO%29.pdf)
+
+### Instituciones registradas
+
+- Academia Colombiana de la Lengua (otro)
+- Academia Nacional de Medicina de Colombia (otro)
+- Agencia Nacional de Defensa Jurídica del Estado (otro)
+- Agencia nacional de infraestructura (otro)
+- ANLA: Autoridad nacional de ciencias ambientales (otro)
+- Cámara de Representantes (otro)
+- Colegio Colombiano de Psicólogos (asociacion)
+- Congreso de la República de Colombia (otro)
+- Consejo de Estado (sección quinta) (otro)
+- Contraloría General de la República (otro)
+- Corte Suprema de Justicia de Colombia (otro)
+- Departamento Administrativo de la Función Pública (otro)
+- Departamento Nacional de Planeación (otro)
+- Firma de Abogados Peña Delgado & García (otro)
+- Fiscalía General de la Nación (otro)
+- Fundación para el Estado de Derecho FEDe (fundacion)
+- Grupo de Servicio al Ciudadano (otro)
+- Instituto Caro y Cuervo (instituto)
+- Instituto Colombiano de Derecho Procesal (instituto)
+- Instituto Nacional de Administración P´blica (instituto)
+- Ministerio de Hacienda y Crédito Público. Unidad de Proyección Normativa y Estudios de Regulación Financiera (ministerio)
+- Ministerio de Igualdad y Equidad. Dirección para la Garantía de los Derechos de las Personas con Discapacidad (ministerio)
+- Ministerio de las Culturas, las Artes y los Saberes de la República de Colombia. Archivo General de la Nación (ministerio)
+- Peña Delgado & García Abogados (otro)
+- Red de lenguaje claro Colombia (red)
+- Red de Lenguaje Claro Ecuador (red)
+- Supersolidaria (otro)
+- Universidad de los Andes (Bogotá) (universidad)
+- Universidad del Norte (Barranquilla) (universidad)
+- Universidad del Quindío (universidad)
+- Universidad del Rosario (universidad)
+- Universidad del Valle (universidad)
+- Universidad EAFIT (universidad)
+- Universidad ICESI (Cali) (universidad)
+- Universidad IESI (universidad)
+- Universidad Santiago de Cali (universidad)
+- Veeduría Distrital de Bogotá (otro)
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.

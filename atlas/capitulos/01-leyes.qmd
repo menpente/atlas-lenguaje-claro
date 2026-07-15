@@ -1,0 +1,26 @@
+# 01. Leyes
+
+El reconocimiento legal del derecho a un lenguaje claro constituye un paso fundamental para su consolidación como política pública. Las leyes recopiladas en este capítulo muestran cómo distintos países iberoamericanos han comenzado a integrar el lenguaje claro en sus marcos normativos, desde la sanidad y la justicia hasta la transparencia administrativa.
+
+## Registros por país
+
+| País | Nº de registros |
+|---|---|
+| España | 38 |
+| Argentina | 7 |
+| Colombia | 7 |
+| México | 4 |
+| Chile | 2 |
+| Costa Rica | 1 |
+| Ecuador | 1 |
+| Nicaragua | 1 |
+| Perú | 1 |
+| Bolivia | 1 |
+| Cuba | 1 |
+| República Dominicana | 1 |
+
+## Caso: Decreto 258/2019 - Aprobación del "Plan Nacional Anticorrupción (2019 – 2023) (Argentina)
+
+> Decreto 258/2019 - Aprobación del "Plan Nacional Anticorrupción (2019 – 2023)
+
+Fuente: `1_Rx7rBU85IK38HJJqXBV14xLfTwcA9kN` (registro `leyes_0016`).

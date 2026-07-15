@@ -1,0 +1,25 @@
+# 05. Formación
+
+La formación es clave para profesionalizar el lenguaje claro y extenderlo a sectores estratégicos como la administración pública, la justicia y los medios de comunicación. Los cursos recogidos muestran la diversidad de enfoques, instituciones y países que han apostado por enseñar a comunicar con claridad. Los encuentros — congresos, jornadas, seminarios — son espacios donde se comparten experiencias y se discuten retos y soluciones.
+
+## Registros por país
+
+| País | Nº de registros |
+|---|---|
+| España | 168 |
+| Colombia | 46 |
+| Argentina | 37 |
+| Chile | 5 |
+| México | 4 |
+| Costa Rica | 3 |
+| Ecuador | 1 |
+| Guatemala | 1 |
+| Paraguay | 1 |
+| Perú | 1 |
+| Uruguay | 1 |
+
+## Caso: Cinco retos en la enseñana del lenguaje claro (Argentina)
+
+> Argentina: La ponencia «Cinco retos en la enseñana del lenguaje claro» se presentó en I Jornadas de Lenguaje Claro en Español el 2023-03-01 00:00:00. Fue
+
+Fuente: `1EJr162UfAYDGIhDcsg6EC-YNR3Yo2bCy` (registro `encuentros_0029`).

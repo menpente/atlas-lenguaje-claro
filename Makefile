@@ -1,4 +1,4 @@
-.PHONY: install lint test intake records index site clean
+.PHONY: install lint test intake records index generate site clean
 
 install:
 	uv sync --extra dev
@@ -14,11 +14,18 @@ intake:
 
 records:
 	uv run python -m atlas.intake.extract
+	uv run python -m atlas.intake.review
 
 index:
-	uv run python -m atlas.build.index
+	uv run python -m atlas.build.score
+	uv run python -m atlas.viz.semaforo
 
-site:
+generate:
+	uv run python -m atlas.build.fichas
+	uv run python -m atlas.build.anexos
+	uv run python -m atlas.build.capitulos
+
+site: generate
 	cd atlas && quarto render
 
 clean:

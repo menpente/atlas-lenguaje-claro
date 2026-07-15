@@ -1,0 +1,573 @@
+# Listado de instituciones {.unnumbered}
+
+| País | Institución | Tipo |
+|---|---|---|
+| Argentina | Asociación Iberoamericana de Profesionales de la Comunicación Judicial | asociacion |
+| Argentina | Ateneo Lenguaje Claro | otro |
+| Argentina | CAL (Correctología y Asesoramiento Lingüístico) | otro |
+| Argentina | Colegio de Traductores Públicos e Intérpretes de Buenos Aires | asociacion |
+| Argentina | Escuela de Gobierno y capacitación legislativa. Secretaría legislativca H.C.S. de Mendoza | gobierno |
+| Argentina | Facultad de Filosofía y Letras de Mendoza | universidad |
+| Argentina | Gobierno Provincia de Buenos Aires | gobierno |
+| Argentina | Gobierno de Argentina | gobierno |
+| Argentina | Gobierno de la Ciudad Autónoma de Buenos Aires | gobierno |
+| Argentina | Gobierno de la provincia de Buenos Aires | gobierno |
+| Argentina | Juzgado PCyF CABA | poder_judicial |
+| Argentina | Ministerio de Justicia y Derechos Humanos. Presidencia de la Nación | ministerio |
+| Argentina | Museo moderno | otro |
+| Argentina | Observatorio de Lenguaje Claro de la Facultad de Derecho de Buenos Aires | universidad |
+| Argentina | Poder Judicial de la Ciudad de Buenos Aires. Consejo de la Magistratura | poder_judicial |
+| Argentina | Presidencia de la Nación | otro |
+| Argentina | Red de Lenguaje Claro de Argentina | red |
+| Argentina | Suprema Corte de Justicia - Poder Judicial | poder_judicial |
+| Argentina | Universidad Nacional de Córdoba | universidad |
+| Argentina | Universidad de Palermo | universidad |
+| Argentina | Universidad del Salvador | universidad |
+| Argentina | Universidad del Salvador, Escuela de Letras | universidad |
+| Bolivia | Academia Boliviana de la Lengua | otro |
+| Bolivia | Federación Nacional de Ciegos de Bolivia - FENACIEBO | otro |
+| Bolivia | Fundación Universidad Privada de Santa Cruz de la Sierra (UPSA) | universidad |
+| Bolivia | Gobierno de Bolivia | gobierno |
+| Bolivia | Universidad Mayor, Real y Pontificia de San Francisco Xavier de Chuquisaca | universidad |
+| Chile | Academia Chilena de la Lengua | otro |
+| Chile | Academia de Ciencias Sociales, Políticas y Morales del Instituto de Chile | instituto |
+| Chile | Archivo General de la Nación | otro |
+| Chile | Banco Central de Chile | otro |
+| Chile | Biblioteca del Congreso Nacional de Chile | otro |
+| Chile | Centro Nacional de Inteligencia Artificial (CENIA) | otro |
+| Chile | Centro de Estudios de Justicia de las Américas | otro |
+| Chile | Comisión Lneguaje Claro Chile | comision |
+| Chile | Comisión de Lenguaje Claro del Poder Judicial de Chile | poder_judicial |
+| Chile | Corporación de Asistencia Judicial de la Región de Valparaíso | otro |
+| Chile | Corte Suprema de Justicia de Chile | otro |
+| Chile | Cátedra Latinoamericana de Lenguaje Jurídico Claro | otro |
+| Chile | El Mercurio | otro |
+| Chile | Gobierno de Chile | gobierno |
+| Chile | Instituto Iberoamericano de Derecho Procesal | instituto |
+| Chile | Poder Judical Chile | otro |
+| Chile | Pontifica Universidad Católica de Valparaíso | universidad |
+| Chile | Pontificia Universidad Católica de Valparaíso. Núcleo de Lenguaje Claro y Derecho de la Facultad de Derecho | universidad |
+| Chile | Primer Tribunal Ambiental | poder_judicial |
+| Chile | Red de Lenguaje Claro de Chile | red |
+| Chile | República de Chile | otro |
+| Chile | Senado de la República de Chile | otro |
+| Chile | Servicio de Impuestos Internos | otro |
+| Chile | Superintendencia de Salud | otro |
+| Chile | Tercer Tribunal Ambiental | poder_judicial |
+| Chile | Universidad de la Serena | universidad |
+| Colombia | ANLA: Autoridad nacional de ciencias ambientales | otro |
+| Colombia | Academia Colombiana de la Lengua | otro |
+| Colombia | Academia Nacional de Medicina de Colombia | otro |
+| Colombia | Agencia Nacional de Defensa Jurídica del Estado | otro |
+| Colombia | Agencia nacional de infraestructura | otro |
+| Colombia | Colegio Colombiano de Psicólogos | asociacion |
+| Colombia | Congreso de la República de Colombia | otro |
+| Colombia | Consejo de Estado (sección quinta) | otro |
+| Colombia | Contraloría General de la República | otro |
+| Colombia | Corte Suprema de Justicia de Colombia | otro |
+| Colombia | Cámara de Representantes | otro |
+| Colombia | Departamento Administrativo de la Función Pública | otro |
+| Colombia | Departamento Nacional de Planeación | otro |
+| Colombia | Firma de Abogados Peña Delgado & García | otro |
+| Colombia | Fiscalía General de la Nación | otro |
+| Colombia | Fundación para el Estado de Derecho FEDe | fundacion |
+| Colombia | Grupo de Servicio al Ciudadano | otro |
+| Colombia | Instituto Caro y Cuervo | instituto |
+| Colombia | Instituto Colombiano de Derecho Procesal | instituto |
+| Colombia | Instituto Nacional de Administración P´blica | instituto |
+| Colombia | Ministerio de Hacienda y Crédito Público. Unidad de Proyección Normativa y Estudios de Regulación Financiera | ministerio |
+| Colombia | Ministerio de Igualdad y Equidad. Dirección para la Garantía de los Derechos de las Personas con Discapacidad | ministerio |
+| Colombia | Ministerio de las Culturas, las Artes y los Saberes de la República de Colombia. Archivo General de la Nación | ministerio |
+| Colombia | Peña Delgado & García Abogados | otro |
+| Colombia | Red de Lenguaje Claro Ecuador | red |
+| Colombia | Red de lenguaje claro Colombia | red |
+| Colombia | Supersolidaria | otro |
+| Colombia | Universidad EAFIT | universidad |
+| Colombia | Universidad ICESI (Cali) | universidad |
+| Colombia | Universidad IESI | universidad |
+| Colombia | Universidad Santiago de Cali | universidad |
+| Colombia | Universidad de los Andes (Bogotá) | universidad |
+| Colombia | Universidad del Norte (Barranquilla) | universidad |
+| Colombia | Universidad del Quindío | universidad |
+| Colombia | Universidad del Rosario | universidad |
+| Colombia | Universidad del Valle | universidad |
+| Colombia | Veeduría Distrital de Bogotá | otro |
+| Costa Rica | Gobierno de Costa Rica | gobierno |
+| Costa Rica | Instituto de Investigaciones Lingüísticas de la UCR | instituto |
+| Costa Rica | Poder Judicial de Costa Rica | poder_judicial |
+| Cuba | Academia Cubana de la Lengua | otro |
+| Cuba | Gobierno de la República de Cuba | gobierno |
+| Cuba | Instituto de Historia de Cuba | instituto |
+| Cuba | Revista Cubana de Salud Pública | otro |
+| República Dominicana | Academia Dominicana de la Lengua | otro |
+| República Dominicana | Asociación de Personas con Discapacidad Físico-Motora (ASODIFIMO) | asociacion |
+| República Dominicana | Consejo del Poder Judicial y Suprema Corte de Justicia de la República Dominicana | poder_judicial |
+| República Dominicana | Dirección de Compras y Contratación Pública | otro |
+| República Dominicana | Escuela Nacional de la Judicatura | otro |
+| República Dominicana | Gobierno de la República Dominicana | gobierno |
+| República Dominicana | Instituto Lingüístico Dominicano | instituto |
+| República Dominicana | Ministerio Público de la República | ministerio |
+| República Dominicana | Ministerio de la Presidencia. Dirección General de Desarrollo de la Comunidad | ministerio |
+| República Dominicana | Universidad APEC | universidad |
+| República Dominicana | Universidad Adventista Dominicana (UNAD) | universidad |
+| Ecuador | Academia Ecuatoriana de Derecho Societario (AEDS) | otro |
+| Ecuador | Academia Ecuatoriana de la Lengua | otro |
+| Ecuador | Consejo Nacional para la Igualdad de Discapacidades (CONADIS) | otro |
+| Ecuador | Consejo de Desarrollo y Promoción de la Información y Comunicación | otro |
+| Ecuador | Consejo de Educación Superior (CES) | otro |
+| Ecuador | Consejo de la Judicatura de Ecuador | otro |
+| Ecuador | Corte Nacional de Justicia | otro |
+| Ecuador | Defensoría del Pueblo de Ecuador | otro |
+| Ecuador | Federación Ecuatoriana pro Atención a la Persona con Deficiencia Mental | otro |
+| Ecuador | Fundación Ciudadanía y Desarrollo | fundacion |
+| Ecuador | Fundación Esquel | fundacion |
+| Ecuador | Fundación de Ayuda por Internet (FUNDAPI) | fundacion |
+| Ecuador | Gobierno de la República de Ecuador | gobierno |
+| Ecuador | Instituto de Altos Estudios Nacionales (IAEN) | instituto |
+| Ecuador | Ministerio de Telecomunicaciones y de la Sociedad de la Información | ministerio |
+| Ecuador | Presidencia de la República de Ecuador | otro |
+| Ecuador | Red Ecuatoriana de Pedagogía | red |
+| Ecuador | Secretaría de Educación Superior, Ciencia, Tecnología e Innovación. Servicio Nacional de Derechos Intelectuales (SENADI) | otro |
+| Ecuador | Universidad Andina Simón Bolivar | universidad |
+| Ecuador | Universidad Nacional de Loja | universidad |
+| Ecuador | Universidad Politécnica Salesiana | universidad |
+| Ecuador | Universidad Técnica Particular de Loja | universidad |
+| España | ACCEDES, Entornos y Servicios Accesibles SL | otro |
+| España | ACEDIS Formación | otro |
+| España | ADR Formación | otro |
+| España | AECID Agencia Española de Cooperación Internacional para el Desarrollo | otro |
+| España | ANETI: Asociación nacional de empresas de traducción e interpretación | asociacion |
+| España | ANFAS Navarra | otro |
+| España | ASALE | otro |
+| España | Academia Malagueña de Ciencias | otro |
+| España | Academia Xacobea | otro |
+| España | Academia de Buenas Letras de Granada | otro |
+| España | Agencia EFE | otro |
+| España | Ajuntament de Barcelona | otro |
+| España | Archiletras | otro |
+| España | Asamblea de Madrid | otro |
+| España | Asociación A Toda Vela | asociacion |
+| España | Asociación Española de Derecho del Trabajo y de la Seguridad Social (AEDTSS) | asociacion |
+| España | Asociación Española de Directivos de Comunicación (DIRCOM) | asociacion |
+| España | Asociación Española de Fundaciones (AEF) | asociacion |
+| España | Asociación Española de Geografía (AGE) | asociacion |
+| España | Asociación Española de Logopedia, Foniatría y Audiología e Iberoamericana de Fonoaudiología | asociacion |
+| España | Asociación Iberoamericana de Entidades Reguladoras de la Energía (ARIAE) | asociacion |
+| España | Asociación Lectura Fácil | asociacion |
+| España | Asociación Lectura Fácil de Castilla y León | asociacion |
+| España | Asociación Nacional de Editores de Libros y Material de Enseñanza (ANELE) | asociacion |
+| España | Asociación Nacional de Perfumería y Cosmética, Stanpa | asociacion |
+| España | Asociación Profesional de Traductores e Intérpretes Judiciales y Jurados (APTIJ) | asociacion |
+| España | Asociación de Juristas y Profesionales del Derecho San Raimundo de Peñafort | asociacion |
+| España | Asociación de Marketing de España | asociacion |
+| España | Asociación de Mutuas de Accidentes de Trabajo (AMAT) | asociacion |
+| España | Atresmedia | otro |
+| España | Ayuntamiento de Cáceres | otro |
+| España | Ayuntamiento de Madrid | otro |
+| España | Ayuntamiento de Palma | otro |
+| España | Ayuntamiento de Santa Cruz de la Palma | otro |
+| España | Ayuntamiento de Torrelavega | otro |
+| España | BBVA | otro |
+| España | Banco de España | otro |
+| España | Barcelona Supercomputing Center - Centro Nacional de Supercomputación | otro |
+| España | CERMIN Navarra | otro |
+| España | CITT Humanidades Digitales y Tecnologías del Español | otro |
+| España | CaixaBank | otro |
+| España | Calamo y Cran | otro |
+| España | Club Español e Iberoamericano del Arbitraje (CEIA) | otro |
+| España | Club de Marketing de Navarra | otro |
+| España | Colegio Notarial de Extremadura | asociacion |
+| España | Colegio Oficial de Enfermería de Burgos | asociacion |
+| España | Colegio Oficial de Enfermería de Málaga | asociacion |
+| España | Colegio Oficial de Enfermería de Salamanca | asociacion |
+| España | Colegio Oficial de Farmacéuticos de Huelva | asociacion |
+| España | Colegio Oficial de Farmacéuticos de Zaragoza | asociacion |
+| España | Colegio Oficial de Gestores Administrativos de Extremadura | asociacion |
+| España | Colegio Oficial de Gestores Administrativos de Galicia | asociacion |
+| España | Colegio Oficial de Médicos de Castellón | asociacion |
+| España | Colegio Oficial de Médicos de Huesca | asociacion |
+| España | Colegio Oficial de Médicos de Valladolid | asociacion |
+| España | Colegio de Registradores de España | asociacion |
+| España | Colegio de Ópticos-Optometristas de la Comunitat Valenciana | asociacion |
+| España | Comisión Europea. Dirección General de Traducción | comision |
+| España | Comisión Nacional de los Mercados y la Competencia (CNMC) | comision |
+| España | Comisión Nacional del Mercado de Valores (CNMV) | comision |
+| España | Comité Español de Representantes de Personas con Discapacidad (CERMI) | otro |
+| España | Complejo asistencial universitario de Salamanca | otro |
+| España | Comunidad de Madrid | otro |
+| España | Confederación Estatal de Personas Sordas (CNSE) | otro |
+| España | Confederación de Empresarios de Galicia | otro |
+| España | Conferencia de Decanas y Decanos de Derecho de España | otro |
+| España | Conferencia de Ministros de Justicia de los Países Iberoamericanos (COMJIB) | otro |
+| España | Consejo Andaluz de Colegios de Abogados | asociacion |
+| España | Consejo Empresarial Alianza por Iberoamérica (CEAPI) | otro |
+| España | Consejo General de Colegios Oficiales de Enfermería | asociacion |
+| España | Consejo General de Colegios Oficiales de Farmacéuticos | asociacion |
+| España | Consejo General de Colegios Oficiales de Médicos (CGCOM) | asociacion |
+| España | Consejo General de Colegios de Logopedas | asociacion |
+| España | Consejo General de Dentistas de España | otro |
+| España | Consejo General de Procuradores de España | otro |
+| España | Consejo General de Secretarios, Interventores y Tesoreros de Administración Local (COSITAL) | otro |
+| España | Consejo General de la Psicología de España | otro |
+| España | Consejo General del Poder Judicial (CGPJ) | poder_judicial |
+| España | Consejo Superior de Colegios de Arquitectos de España | asociacion |
+| España | Consejo de Colegios Oficiales de Enfermería de Castilla y León | asociacion |
+| España | Consejo de Estado | otro |
+| España | Consejo de Transparencia y Protección de Datos de Andalucía | otro |
+| España | Cortes de Aragón | otro |
+| España | Cámara Comercio, Industria y Servicios de Astorga | otro |
+| España | Cámara Comercio, Industria y Servicios de Linares | otro |
+| España | Cámara Comercio, Industria y Servicios de Zaragoza | otro |
+| España | Cámara de Comercio, Industria y Servicios de Albacete | otro |
+| España | Cámara de Comercio, Industria y Servicios de Burgos | otro |
+| España | Cámara de Comercio, Industria y Servicios de Zamora | otro |
+| España | Cámara de Comercio, Industria, Servicios y Navegación de Gijón | otro |
+| España | Cámara de Comercio, Industria, Servicios y Navegación de Santa Cruz de Tenerife | otro |
+| España | Cámara de España | otro |
+| España | Cámara de Representantes - Parlamento | otro |
+| España | Cámara de Senadores - Parlamento | otro |
+| España | DKV Seguros | otro |
+| España | Diario Público | otro |
+| España | Diputació Barcelona | otro |
+| España | Diputación Provincial de Jaén | otro |
+| España | Dirección General de Servicios Digitales y Experienica Ciudadana de la Generalitat de Catalunña | otro |
+| España | ECLAP (Escuela de Administración Pública de CyL) | otro |
+| España | EDAP (Estudios del Discurso Académico y Profesional) | otro |
+| España | EFIAP (Escuela de Formación e Innovación de la Administración Pública) | otro |
+| España | El Defensor del Pueblo | otro |
+| España | El Diario de Madrid | otro |
+| España | Estudios del Discurso Académico y Profesional | otro |
+| España | FORMAINAP | otro |
+| España | Facultad de Filología de la UNED | universidad |
+| España | Federación Española de Municipios y Provincias (FEMP) | otro |
+| España | Federación de Gremios de Editores de España | otro |
+| España | Federación riojana de municipios | otro |
+| España | Feeling Innovation by Stanpa - Asociación para la Innovación en Perfume, Cosmética y Cuidado Personal | asociacion |
+| España | Finreg360 | otro |
+| España | Fiscalía General del Estado | otro |
+| España | Foro Iberoamericano de Derecho Administrativo (FIDA) | otro |
+| España | Fundación Academia del Perfume | fundacion |
+| España | Fundación Amás | fundacion |
+| España | Fundación BBVA | fundacion |
+| España | Fundación Banco Santander | fundacion |
+| España | Fundación CNSE | fundacion |
+| España | Fundación CajaCanarias | fundacion |
+| España | Fundación Comillas | fundacion |
+| España | Fundación EDAU – Educación Autismo | fundacion |
+| España | Fundación Ideas | fundacion |
+| España | Fundación Nebrija | fundacion |
+| España | Fundación ONCE para la Cooperación e Inclusión Social de Personas con Discapacidad | fundacion |
+| España | Fundación Princesa de Asturias | fundacion |
+| España | Fundación Prodis | fundacion |
+| España | Fundación Sierra Pambley | fundacion |
+| España | Fundación pro Real Academia Española | fundacion |
+| España | Fundéu BBVA | otro |
+| España | Generalitat Valenciana | otro |
+| España | Generalitat de Catalunya | otro |
+| España | Gobierno de Aragón | gobierno |
+| España | Gobierno de Canarias | gobierno |
+| España | Gobierno de Castilla y León | gobierno |
+| España | Gobierno de España | gobierno |
+| España | Gobierno de La Rioja | gobierno |
+| España | Grupo Planeta | otro |
+| España | HEI Escuela Abierta de la Ciudadanía | otro |
+| España | Hidralia, Gestión Integral de Aguas de Andalucía | otro |
+| España | ICAP (Instituto Cántabro de Administración Pública Rafael de la Sierra) | instituto |
+| España | IKEA | otro |
+| España | INAP (Instituto Nacional de Administración Pública) | instituto |
+| España | INSTITUTO UNIVERSITARIO DE INVESTIGACIÓN   
+EN ESTUDIOS LATINOAMERICANOS, UNIVERSIDAD DE ALCALÁ | universidad |
+| España | IVAP | otro |
+| España | Iberdrola | otro |
+| España | Ideograma | otro |
+| España | Ilustre Colegio Oficial de Enfermería de Granada | asociacion |
+| España | Ilustre Colegio Oficial de Enfermería de Las Palmas | asociacion |
+| España | Ilustre Colegio Oficial de Médicos de Zaragoza | asociacion |
+| España | Ilustre Colegio Provincial de Abogados de A Coruña | asociacion |
+| España | Ilustre Colegio de Abogados de Burgos | asociacion |
+| España | Ilustre Colegio de Abogados de Córdoba | asociacion |
+| España | Ilustre Colegio de Abogados de Jaén | asociacion |
+| España | Ilustre Colegio de Abogados de Murcia | asociacion |
+| España | Ilustre Colegio de Abogados de Málaga | asociacion |
+| España | Ilustre Colegio de Abogados de Orihuela | asociacion |
+| España | Ilustre Colegio de Abogados de Zamora | asociacion |
+| España | Ilustre Colegio de Procuradores de A Coruña | asociacion |
+| España | Ilustre Colegio de Procuradores de Alicante | asociacion |
+| España | Ilustre Colegio de Procuradores de Granada | asociacion |
+| España | Ilustre Colegio de Procuradores de Oviedo | asociacion |
+| España | Ilustre Colegio de Procuradores de Valladolid | asociacion |
+| España | Ilustre Colegio de Procuradores de los Tribunales de Murcia | poder_judicial |
+| España | Il·lustre Col·legi d'Advocats de les Illes Balears | otro |
+| España | Instituto Andaluz de Administración Pública | instituto |
+| España | Instituto Aragonés de Servicios Sociales | instituto |
+| España | Instituto Nacional de Estadística | instituto |
+| España | Instituto de España | instituto |
+| España | Instituto de Ingeniería del Conocimiento | instituto |
+| España | Instituto lectura fácil | instituto |
+| España | J\&A Garrigues, S.L.P. | otro |
+| España | Junta de Andalucia | otro |
+| España | Legálitas | otro |
+| España | Lehendakaritza | otro |
+| España | MODII (Plataforma virtual de comunicación inclusiva) | otro |
+| España | Management Solutions | otro |
+| España | Ministerio Público | ministerio |
+| España | Ministerio Secretaría General de la Presidencia | ministerio |
+| España | Ministerio de Ciencia, Innovación y Universidades del Gobierno de España. Agencia Estatal Consejo Superior de Investigaciones Científicas (CSIC) | ministerio |
+| España | Ministerio de Ciencia, Innovación y Universidades del Gobierno de España. Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas (CIEMAT) | ministerio |
+| España | Ministerio de Ciencia, Innovación y Universidades del Gobierno de España. Fundación Española para la Ciencia y la Tecnología (FECYT) | ministerio |
+| España | Ministerio de Ciencia, Innovación y Universidades del Gobierno de España. Servicio Español para la Internacionalización de la Educación (SEPIE) | ministerio |
+| España | Ministerio de Cultura del Gobierno de España. Biblioteca Nacional de España | ministerio |
+| España | Ministerio de Defensa del Gobierno de España. Centro Superior de Estudios de la Defensa Nacional (CESEDEN) | ministerio |
+| España | Ministerio de Derechos Sociales, Consumo y Agenda 2030 del Gobierno de España. Real Patronato sobre Discapacidad | ministerio |
+| España | Ministerio de la Presidencia, Justicia y Relaciones con las Cortes del Gobierno de España | ministerio |
+| España | Ministerio de la Presidencia, Justicia y Relaciones con las Cortes del Gobierno de España. Abogacía General del Estado | ministerio |
+| España | Ministerio de la Presidencia, Justicia y Relaciones con las Cortes del Gobierno de España. Agencia Estatal Boletín Oficial del Estado | ministerio |
+| España | Ministerio de la Presidencia, Justicia y Relaciones con las Cortes del Gobierno de España. Centro de Estudios Jurídicos(CEJ) | ministerio |
+| España | Ministerio de la Presidencia, Justicia y Relaciones con las Cortes del Gobierno de España. Centro de Estudios Políticos y Constitucionales | ministerio |
+| España | Ministerio de la Presidencia, Justicia y Relaciones con las Cortes del Gobierno de España. Oficina de Coordinación y Calidad Normativa | ministerio |
+| España | Ministerio del Interior del Gobierno de España. Dirección General de la Policía | ministerio |
+| España | Ministerio para la Transformación Digital y de la Función Pública del Gobierno de España. Instituto Nacional de Administración Pública (INAP) | ministerio |
+| España | Muy Ilustre Colegio de Abogados de Pamplona | asociacion |
+| España | NovaGob | otro |
+| España | Observatorio Nebrija del Español | otro |
+| España | Organización Iberoamericana de Seguridad Social (OISS) | otro |
+| España | Organización de Estados Iberoamericanos para la Educación, la Ciencia y la Cultura (OEI) | otro |
+| España | Pictolex | otro |
+| España | Plena Inclusión La Rioja | otro |
+| España | Plena Inclusión Madrid | otro |
+| España | Prodigioso Volcán | otro |
+| España | Pérez-Llorca Abogados | otro |
+| España | Real Academia Conquense de Artes y Letras | otro |
+| España | Real Academia Española | otro |
+| España | Real Academia Gallega de Jurisprudencia y Legislación | otro |
+| España | Real Academia Hispano Americana de Ciencias, Artes y Letras | otro |
+| España | Real Academia Nacional de Medicina de España | otro |
+| España | Real Academia Sevillana de Buenas Letras | otro |
+| España | Real Academia Sevillana de Ciencias Veterinarias | otro |
+| España | Real Academia Sevillana de Legislación y Jurisprudencia | otro |
+| España | Real Academia de Ciencias Económicas y Financieras | otro |
+| España | Real Academia de Ciencias Exactas, Físicas, Químicas y Naturales de Zaragoza | otro |
+| España | Real Academia de Ciencias Veterinarias de Andalucía Oriental | otro |
+| España | Real Academia de Ciencias, Bellas Artes y Buenas Letras "Luis Vélez de Guevara" | otro |
+| España | Real Academia de Extremadura de las Letras y las Artes | otro |
+| España | Real Academia de Farmacia de Galicia | otro |
+| España | Real Academia de Ingeniería | otro |
+| España | Real Academia de Jurisprudencia y Legislación | otro |
+| España | Real Academia de Jurisprudencia y Legislación de Extremadura | otro |
+| España | Real Academia de Jurisprudencia y Legislación de Granada | otro |
+| España | Real Academia de Legislación y Jurisprudencia de Valladolid | otro |
+| España | Real Academia de Medicina de Cantabria | otro |
+| España | Real Academia de Medicina de Zaragoza | otro |
+| España | Real Academia de Medicina y Cirugía de Valladolid | otro |
+| España | Real Sociedad Económica Matritense de Amigos del País | otro |
+| España | Real Sociedad Matemática Española | otro |
+| España | Real e Ilustre Colegio de Abogados de Zaragoza | asociacion |
+| España | Red Académica de Gobierno Abierto Internacional. Capítulo español | gobierno |
+| España | Red Iberoamericana de Contratación Pública (REDICOP) | red |
+| España | Red Panhispánica de Lenguaje Claro y Accesible | red |
+| España | Reial Acadèmia de Bones Lletres de Barcelona | otro |
+| España | Reial Acadèmia de Medicina de les Illes Balears | otro |
+| España | RocaJunyent | otro |
+| España | SE-RET Sociedad española de Retórica | otro |
+| España | SYC Servicios y Consultoría | otro |
+| España | Secretaría General Iberoamericana | otro |
+| España | Senado de España | otro |
+| España | Sociedad Española de la Ciencia del Suelo | otro |
+| España | Sociedad General de Autores y Editores (SGAE) | otro |
+| España | Tribunal Constitucional | poder_judicial |
+| España | Tribunal Supremo y Consejo General del Poder Judicial | poder_judicial |
+| España | Tribunal de Cuentas | poder_judicial |
+| España | Universidad CEU Fernando III | universidad |
+| España | Universidad Carlos III de Madrid. Grupo de investigación GigaBD, del Departamento de Informática | universidad |
+| España | Universidad Carlos III de Madrid. Grupo de investigación HULAT (Human Language and Accessibility Technologies), del Departamento de Informática | universidad |
+| España | Universidad Internacional de la Empresa (UNIE) | universidad |
+| España | Universidad Nacional de Educación a Distancia | universidad |
+| España | Universidad Nebrija | universidad |
+| España | Universidad Pablo de Olavide | universidad |
+| España | Universidad Paraguayo-Alemana (UPA) | universidad |
+| España | Universidad Politécnica de Cartagena | universidad |
+| España | Universidad Politécnica de Madrid | universidad |
+| España | Universidad Pontificia de Comillas | universidad |
+| España | Universidad Pontificia de Salamanca | universidad |
+| España | Universidad Rey Juan Carlos | universidad |
+| España | Universidad San Jorge | universidad |
+| España | Universidad de Alcalá | universidad |
+| España | Universidad de Alicante | universidad |
+| España | Universidad de Barcelona | universidad |
+| España | Universidad de Burgos | universidad |
+| España | Universidad de Cádiz | universidad |
+| España | Universidad de Córdoba | universidad |
+| España | Universidad de Granada | universidad |
+| España | Universidad de Jaén | universidad |
+| España | Universidad de León | universidad |
+| España | Universidad de Oviedo | universidad |
+| España | Universidad de Salamanca | universidad |
+| España | Universidad de Sevilla | universidad |
+| España | Universidad de Valladolid | universidad |
+| España | Universidad de Zaragoza | universidad |
+| España | Universidade de Santiago de Compostela | universidad |
+| España | Universitat Autònoma de Barcelona. Grupo de investigación de la lengua de la Ciencia y de la técnica Neolcyt, del Departamento de Filología Española. | otro |
+| España | Universitat Jaume I | otro |
+| España | Universitat Rovira i Virgili. Grupo de investigación en Lexicografía y Enseñanza de Lenguas Extranjeras (LEXELE), vinculado al Departamento de Filologías Románicas | otro |
+| España | Universitat de Barcelona. Cátedra UB Diputación de Barcelona (DIBA) de Comunicación Clara Aplicada a las Administraciones Públicas | otro |
+| España | Universitat de Lleida. Cercle de Lingüística Aplicada | otro |
+| España | Universitat de València | otro |
+| España | Universitat de les Illes Balears | otro |
+| España | Unión Profesional | otro |
+| España | Unión de Correctores | otro |
+| España | Uría Menéndez Abogados | otro |
+| España | Ventea | otro |
+| España | Vicepresidencia primera del Gobierno de España. Ministerio de Hacienda. Instituto de Estudios Fiscales | ministerio |
+| España | Vicepresidencia segunda del Gobierno de España. Ministerio de Trabajo y Economía Social. Instituto Nacional de Seguridad y Salud en el Trabajo | ministerio |
+| España | Xunta de Galicia. Consejería de Cultura, Lengua y Juventud | otro |
+| España | Zesauro Traducciones | otro |
+| Guatemala | Academia Guatemalteca de la Lengua | otro |
+| Guatemala | Academia de Geografía e Historia de Guatemala | otro |
+| Guatemala | Centro de Formación de la Cooperación Española de La Antigua | otro |
+| Guatemala | Consejo Nacional para la Atención de las Personas con Discapacidad (CONADI) | otro |
+| Guatemala | Defensoría Penal Pública | otro |
+| Honduras | Academia Hondureña de la Lengua | otro |
+| Honduras | Centro Cultural de España en Tegucigalpa | otro |
+| Honduras | Colegio de Ingenieros Mecánicos, Electricistas y Químicos de Honduras (CIMEQH) | asociacion |
+| Honduras | Coordinadora de Instituciones Privadas por las Niñas, Niños, Adolescentes, Jóvenes y sus Derechos (COIPRODEN) | otro |
+| Honduras | Instituto Hondureño del Transporte Terrestre (IHTT) | instituto |
+| Honduras | Universidad Nacional de Agricultura | universidad |
+| México | Academia Mexicana de la Lengua | otro |
+| México | Barra Mexicana, Colegio de Abogados, A.C. | asociacion |
+| México | Bufete Oléa y Asociados | otro |
+| México | CENCADE | otro |
+| México | Consejo de Colegios de Profesionistas de México (CONSEPROF) | asociacion |
+| México | Consejo de la Judicatura General | otro |
+| México | Cámara de Diputados | otro |
+| México | Dirección general de transparencia y archivos | otro |
+| México | Escuela Federal de Formación Judicial del Poder Judicial de la Federación | poder_judicial |
+| México | Escuela Judicial Electoral del Tribunal Electoral del Poder Judicial de la Federación | poder_judicial |
+| México | Gobierno de México | gobierno |
+| México | Ilustre y Nacional Colegio de Abogados de México (INCAM) | asociacion |
+| México | Instituto Nacional Electoral | instituto |
+| México | Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI) | instituto |
+| México | Instituto Tecnológico Autónomo de México (ITAM) | instituto |
+| México | Nájera Danieli & Asociados | otro |
+| México | Secretaría de Relaciones Exteriores del Gobierno de México. Instituto Matías Romero de Estudios Diplomáticos | gobierno |
+| México | Secretaría de la Función Pública | otro |
+| México | Senado de la República | otro |
+| México | Suprema Corte de Justicia de la Nación y Consejo de la Judicatura Federal | otro |
+| México | Tribunal Supremo de Justicia de Jalisco | poder_judicial |
+| México | Universidad Autónoma de Nuevo León | universidad |
+| México | Universidad Michoacana de San Nicolás de Hidalgo (UMSNH) | universidad |
+| México | Universidad Nacional Autónoma de México (UNAM) | universidad |
+| México | Universidad Nacional Autónoma de México (UNAM). Instituto Iberoamericano de Derecho Constitucional | universidad |
+| México | Universidad de Colima | universidad |
+| México | Universidad de las Américas Puebla | universidad |
+| Nicaragua | Academia Nicaragüense de la Lengua | otro |
+| Nicaragua | Gobierno de Nicaragua | gobierno |
+| Panamá | Academia Panameña de la Lengua | otro |
+| Panamá | Colegio Nacional de Farmacéuticos de Panamá | asociacion |
+| Panamá | Fiscalía General Electoral de la República de Panamá | otro |
+| Panamá | Superintendencia de Bancos de Panamá | otro |
+| Panamá | Tribunal Administrativo Tributario de Panamá | poder_judicial |
+| Panamá | Órgano Judicial y Corte Suprema de Justicia de Panamá | otro |
+| Perú | Academia Nacional de Medicina del Perú | otro |
+| Perú | Academia Peruana de la Lengua | otro |
+| Perú | Agustín de Arequipa (UNSA) | otro |
+| Perú | Asociación Civil Consejo de Seguridad y Participación Ciudadana | asociacion |
+| Perú | Asociación de Correctores de Textos del Perú (Ascot Perú) | asociacion |
+| Perú | Baxel Consultores | otro |
+| Perú | Carrera de Traducción e Interpretación Profesional de la Universidad Peruana de Ciencias Aplicadas (UPC) | universidad |
+| Perú | Colegio Profesional de Antropólogos del Perú (CPAP) | asociacion |
+| Perú | Colegio de Geógrafos del Perú | asociacion |
+| Perú | Colegio de Traductores del Perú (CTP) | asociacion |
+| Perú | Corte Suprema de Justicia de la República y Poder Judicial del Perú | poder_judicial |
+| Perú | Departamento Académico de Literatura y Lingüística de la Universidad Nacional de San Agustín de Arequipa | universidad |
+| Perú | Escuela Peruana de Lenguaje Claro | otro |
+| Perú | Gobierno de Perú | gobierno |
+| Perú | Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI) | instituto |
+| Perú | Instituto de Terminología de la Universidad Ricardo Palma (TermPalma) | universidad |
+| Perú | Ministerio de Comercio Exterior y Turismo. Centro de Formación en Turismo (CENFOTUR) | ministerio |
+| Perú | Ministerio de Desarrollo Agrario y Riego. Instituto Nacional de Innovación Agraria | ministerio |
+| Perú | Ministerio de Relaciones Exteriores. Academia Diplomática del Perú "Javier Pérez de Cuéllar" | ministerio |
+| Perú | Poder Judicial del Perú | poder_judicial |
+| Perú | Red Peruana de Lenguaje Claro Oficial | red |
+| Perú | Universidad Católica de Santa María | universidad |
+| Perú | Universidad Nacional José María Arguedas | universidad |
+| Perú | Universidad Nacional Mayor de San Marcos. Instituto de Investigaciones de Lingüística Aplicada (CILA) | universidad |
+| Perú | Universidad Nacional Tecnológica de Lima Sur | universidad |
+| Perú | Universidad Nacional de Cajamarca | universidad |
+| Perú | Universidad Nacional de Piura | universidad |
+| Perú | Universidad Nacional de San Antonio Abad del Cusco | universidad |
+| Perú | Universidad Nacional del Santa | universidad |
+| Perú | Universidad Peruana de Ciencias Aplicadas | universidad |
+| Perú | Universidad Ricardo Palma. Instituto de Terminología Ricardo Palma | universidad |
+| Perú | Universidad de Lima | universidad |
+| Perú | Universidad del Pacífico | universidad |
+| Puerto Rico | Academia Puertorriqueña de Jurisprudencia y Legislación | otro |
+| Puerto Rico | Academia Puertorriqueña de la Historia | otro |
+| Puerto Rico | Academia Puertorriqueña de la Lengua Española | otro |
+| Puerto Rico | Ateneo Puertorriqueño | otro |
+| Puerto Rico | Colegio de Abogados y Abogadas de Puerto Rico | asociacion |
+| Puerto Rico | Escuela de Medicina. Recinto de Ciencias Médicas | otro |
+| Puerto Rico | Instituto de Estadísticas de Puerto Rico | instituto |
+| Puerto Rico | Instituto de Literatura Puertorriqueña | instituto |
+| Puerto Rico | Recinto de Aguadilla | otro |
+| Puerto Rico | Recinto de Arecibo | otro |
+| Puerto Rico | Recinto de Bayamón | otro |
+| Puerto Rico | Recinto de Carolina | otro |
+| Puerto Rico | Recinto de Cayey | otro |
+| Puerto Rico | Recinto de Humacao | otro |
+| Puerto Rico | Recinto de Mayagüez | otro |
+| Puerto Rico | Recinto de Ponce | otro |
+| Puerto Rico | Recinto de Río Piedras | otro |
+| Puerto Rico | Recinto de Utuado | otro |
+| Puerto Rico | Servicios Legales de Puerto Rico | otro |
+| Puerto Rico | Tribunal Supremo de Puerto Rico | poder_judicial |
+| Puerto Rico | Universidad Interamericana de Puerto Rico | universidad |
+| Puerto Rico | Universidad Politécnica de Puerto Rico | universidad |
+| Puerto Rico | Universidad de Puerto Rico | universidad |
+| Paraguay | Academia Legislativa de la Cámara de Senadores | otro |
+| Paraguay | Academia Paraguaya de la Lengua Española | otro |
+| Paraguay | Presidencia de la República del Paraguay. Consejo Nacional de Ciencia y Tecnología (CONACYT) | otro |
+| Paraguay | Presidencia de la República del Paraguay. Secretaría de Políticas Lingüísticas (SPL) | otro |
+| Paraguay | Universidad Autónoma de Asunción | universidad |
+| Paraguay | Universidad Autónoma de Encarnación (UNAE) | universidad |
+| Paraguay | Universidad Nacional de Asunción | universidad |
+| Paraguay | Universidad Nacional de Pilar | universidad |
+| Paraguay | Universidad Nacional del Este | universidad |
+| Paraguay | Universidad Panamericana | universidad |
+| El Salvador | Academia Salvadoreña de la Historia | otro |
+| El Salvador | Academia Salvadoreña de la Lengua | otro |
+| El Salvador | Asociación Hábitat para la Humanidad El Salvador (HPHES) | asociacion |
+| El Salvador | Centro Cultural Salvadoreño Americano | otro |
+| El Salvador | Consejo Nacional de la Judicatura de El Salvador | otro |
+| El Salvador | Fundación Nacional para el Desarrollo (FUNDE) | fundacion |
+| El Salvador | Instituto Centro Cultural Salvadoreño Americano | instituto |
+| El Salvador | Instituto Especializado de Profesionales de la Salud (IEPROES) | instituto |
+| El Salvador | Instituto Superior de Economía y Administración de Empresas (ISEADE) | instituto |
+| El Salvador | Universidad Francisco Gavidia | universidad |
+| El Salvador | Universidad La Paz | universidad |
+| El Salvador | Universidad Luterana Salvadoreña | universidad |
+| El Salvador | Universidad Nueva San Salvador | universidad |
+| El Salvador | Universidad Salvadoreña Alberto Masferrer | universidad |
+| El Salvador | Universidad del Sagrado Corazón | universidad |
+| Uruguay | Academia Nacional de Letras de Uruguay | otro |
+| Uruguay | Asociación Uruguaya de Correctores de Estilo (AUCE) | asociacion |
+| Uruguay | Asociación de Escribanos del Uruguay | asociacion |
+| Uruguay | Colegio de Abogados del Uruguay | asociacion |
+| Uruguay | Colegio de Contadores, Economistas y Administradores del Uruguay (CCEAU) | asociacion |
+| Uruguay | Colegio de Traductores Públicos del Uruguay | asociacion |
+| Uruguay | Comisión Administrativa del Poder Legislativo | comision |
+| Uruguay | Cruz Roja Uruguaya | otro |
+| Uruguay | Cámara de Senadores de la República Oriental del Uruguay | otro |
+| Uruguay | Dirección Nacional de Impresiones y Publicaciones Oficiales (IMPO) | otro |
+| Uruguay | Fundación de Cultura Universitaria | fundacion |
+| Uruguay | IMPO - Centro de Información Oficial. | otro |
+| Uruguay | Red Uruguaya de Lenguaje Jurídico CLaro | red |
+| Uruguay | Suprema Corte de Justicia de la República Oriental del Uruguay | otro |
+| Uruguay | Universidad de Montevideo | universidad |
+| Estados Unidos | Hispanic Association of Colleges and Universities (HACU) | otro |
+| Estados Unidos | Instituto Nacional Demócrata | instituto |
+| Estados Unidos | Research Institute of United States Spanish (RIUSS) | otro |
+| Venezuela | Academia Venezolana de la Lengua | otro |
+| Venezuela | Academia de Ciencias Políticas y Sociales | otro |
+| Venezuela | Centro Latinoamericano de Administración para el Desarrollo (CLAD) | otro |
+| Venezuela | Colegio de Abogados del Estado Táchira | asociacion |
+| Venezuela | Corporación Andina de Fomento (CAF) | otro |

@@ -1,0 +1,51 @@
+# El Salvador {#sec-slv}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | sin datos | sin datos |
+| Instituciones | 2.0 | ámbar |
+| Proyectos | sin datos | sin datos |
+| Publicaciones | sin datos | sin datos |
+| Formación | 1.0 | rojo |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: 37.5/100 · **Cobertura de evidencia**: 8% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+Sin leyes verificadas todavía para este país.
+
+### Instituciones registradas
+
+- Academia Salvadoreña de la Historia (otro)
+- Academia Salvadoreña de la Lengua (otro)
+- Asociación Hábitat para la Humanidad El Salvador (HPHES) (asociacion)
+- Centro Cultural Salvadoreño Americano (otro)
+- Consejo Nacional de la Judicatura de El Salvador (otro)
+- Fundación Nacional para el Desarrollo (FUNDE) (fundacion)
+- Instituto Centro Cultural Salvadoreño Americano (instituto)
+- Instituto Especializado de Profesionales de la Salud (IEPROES) (instituto)
+- Instituto Superior de Economía y Administración de Empresas (ISEADE) (instituto)
+- Universidad del Sagrado Corazón (universidad)
+- Universidad Francisco Gavidia (universidad)
+- Universidad La Paz (universidad)
+- Universidad Luterana Salvadoreña (universidad)
+- Universidad Nueva San Salvador (universidad)
+- Universidad Salvadoreña Alberto Masferrer (universidad)
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.

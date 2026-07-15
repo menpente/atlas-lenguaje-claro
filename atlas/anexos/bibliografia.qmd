@@ -1,0 +1,14 @@
+# Bibliografía {.unnumbered}
+
+Fuentes documentales usadas para el intake (P2) y la extracción (P3). Cada una tiene un `file_id` de Google Drive trazable en todos los registros de `data/processed/records/`.
+
+- **Índice del Atlas** (`1vlsdKknauVH9KegOnu9bvm7V5vw7HmxIFCjSAYwTQog`)
+- **00 Atlas_Lenguaje_Claro_Indice_Explicado.docx** (`1e6nPBjCuNEFiNx1r2QDP7fewBnHPPKfj`)
+- **01 Atlas_Lenguaje_Claro_Cap1_Proyectos_Refinado.docx** (`1ssEsITh2TCm7qI7OLK79BNTeX26m39Y6`)
+- **02 Atlas_Lenguaje_Claro_Cap2_Encuentros_Refinado.docx** (`1EJr162UfAYDGIhDcsg6EC-YNR3Yo2bCy`)
+- **03 Atlas_Lenguaje_Claro_Cap3_Cursos.docx** (`1VyM75p_CXQNX4vr2RI0lTHXOAdiaqgYb`)
+- **04 Atlas_Lenguaje_Claro_Cap4_Leyes.docx** (`1M9C7wDLrk1OpDGkXvzX3KLlXaVN6RoQ-`)
+- **05 Atlas_Lenguaje_Claro_Cap5_Instituciones.docx** (`13FSED3pQflH87uQOCVKr1YYgIfoRBMGV`)
+- **Leyes españolas.xlsx** (`1_Rx7rBU85IK38HJJqXBV14xLfTwcA9kN`)
+- **Índice Atlas.xlsx** (`1Nop9qlgbgdVt1wPMhD9vb8mM61H82uEG`)
+- **Ejemplo país COLOMBIA.docx** (`15phBIZo0jS6e8Ve09wPFbUSrMy5W0qsf`)

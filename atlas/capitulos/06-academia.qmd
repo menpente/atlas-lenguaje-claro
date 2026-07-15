@@ -1,0 +1,7 @@
+# 06. Academia
+
+**Sin fuente documental todavía.** La carpeta '6. Estudios académicos' del Drive del proyecto está vacía (ver metodologia.qmd, P2). Este capítulo se generará cuando exista una fuente que extraer.
+
+## Registros por país
+
+Sin registros verificados todavía para este pilar.

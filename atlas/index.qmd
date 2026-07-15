@@ -1,0 +1,28 @@
+# Presentación {.unnumbered}
+
+El lenguaje claro ha pasado de ser una aspiración académica a convertirse en una exigencia ciudadana y democrática. Este Atlas recoge, de forma sistemática, los proyectos, encuentros, cursos, leyes, instituciones, publicaciones, herramientas e iniciativas de ciudadanía que están marcando la evolución del lenguaje claro en el espacio iberoamericano.
+
+## Cómo se ha hecho este Atlas
+
+Este sitio se genera automáticamente a partir de `data/processed/` — nada en los capítulos de países ni en los anexos se edita a mano. El proceso completo (intake, extracción, revisión, codificación, semáforo) está documentado paso a paso en [Metodología](metodologia.qmd), incluyendo qué partes del proceso siguen pendientes de una revisión humana real.
+
+**Estado a 2026-07-13**: este es un primer build generado automáticamente, no una versión lista para publicación. En particular:
+
+- La cobertura de fuentes es parcial y muy desigual entre países (España concentra la mayoría de la evidencia disponible).
+- Brasil y Haití no tienen todavía ningún registro, pese a estar incluidos en el universo del Atlas.
+- Las puntuaciones del semáforo no han pasado el control de fiabilidad de doble codificación que exige la metodología.
+
+## El semáforo de implantación
+
+```{python}
+#| echo: false
+from pathlib import Path
+from IPython.display import HTML
+
+html = Path("../data/processed/semaforo.html").read_text(encoding="utf-8")
+HTML(html)
+```
+
+## Universo y marco
+
+23 entidades iberoamericanas (22 países + Puerto Rico como caso no soberano), marco iberoamericano (español, portugués, criollo haitiano). Ver `data/coding/country_universe.csv` y la sección de decisiones en [Metodología](metodologia.qmd).

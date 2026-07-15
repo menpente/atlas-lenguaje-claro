@@ -85,6 +85,10 @@ Cada indicador tiene un filtro explícito sobre los campos ya extraídos (p. ej.
 
 **Limitación honesta de la regla de conteo:** no distingue "vinculante" de "no vinculante" dentro del filtro de 1a/1b más allá de lo que ya capturó P3 por heurística (de confianza baja, ver P4), ni verifica que el conteo alto realmente signifique "institucionalizado" en el sentido del ancla de nivel 3-4 — solo que hay ese número de registros verificados que cumplen el filtro. España concentra la mayoría de las puntuaciones más altas simplemente porque es, con diferencia, el país mejor documentado en el manuscrito existente — **esto es un artefacto de cobertura de las fuentes disponibles, no necesariamente una medida real de qué país tiene más lenguaje claro implantado.** Este sesgo de cobertura debe corregirse repoblando Drive con fuentes de los otros 22 países antes de tratar el índice como comparable entre países.
 
+## 2026-07-13 — P6: NO completado — ver `data/coding/adjudication.md`
+
+El criterio de aceptación de P6 (doble codificación independiente del 20% + Krippendorff's α ≥ 0.67) no se cumple y no se ha fingido que se cumple. El detalle completo — qué haría falta para cerrarlo de verdad, y por qué no se ha fabricado un segundo codificador ni un α falso — está en `data/coding/adjudication.md`. En resumen: solo hay un codificador real hasta ahora (este modelo, en P5), y generar una "segunda opinión" con el mismo modelo sobre la misma evidencia no mide fiabilidad independiente, así que no se hizo. Esta fase queda explícitamente pendiente de que una persona (o un segundo modelo distinto) haga la doble codificación real.
+
 ## 2026-07-13 — P7: índice, semáforo y hallazgo importante sobre Brasil/Haití
 
 `src/atlas/viz/semaforo.py` calcula `data/processed/pldi.parquet` (índice 0-100 por país), la matriz semáforo (`data/processed/semaforo.html`) y la sensibilidad drop-one-pillar (`data/processed/sensitivity_drop_one_pillar.csv`), tratando toda celda `insufficient_evidence` como dato ausente (NaN), no como cero — ver justificación en la entrada de P5 de este mismo documento.
@@ -95,6 +99,15 @@ Cada indicador tiene un filtro explícito sobre los campos ya extraídos (p. ej.
 
 **Sensibilidad drop-one-pillar:** ningún pilar individual cambia sustancialmente el ranking (ρ de Spearman entre 0.89 y 1.0 al omitir cualquier pilar), pero esto es poco informativo todavía porque 4 de los 8 pilares no aportan ninguna variación (están vacíos para todos los países) — la prueba de sensibilidad se repetirá cuando Publicaciones/Academia/Herramientas/Ciudadanía tengan datos reales.
 
-## 2026-07-13 — P6: NO completado — ver `data/coding/adjudication.md`
+## 2026-07-13 — P8: sitio Quarto generado, sin verificar el render
 
-El criterio de aceptación de P6 (doble codificación independiente del 20% + Krippendorff's α ≥ 0.67) no se cumple y no se ha fingido que se cumple. El detalle completo — qué haría falta para cerrarlo de verdad, y por qué no se ha fabricado un segundo codificador ni un α falso — está en `data/coding/adjudication.md`. En resumen: solo hay un codificador real hasta ahora (este modelo, en P5), y generar una "segunda opinión" con el mismo modelo sobre la misma evidencia no mide fiabilidad independiente, así que no se hizo. Esta fase queda explícitamente pendiente de que una persona (o un segundo modelo distinto) haga la doble codificación real.
+Se generaron `atlas/_quarto.yml`, `atlas/index.qmd`, los 8 capítulos (`atlas/capitulos/`), las 23 fichas de país (`atlas/paises/`) y los 4 anexos (`atlas/anexos/`) — todo desde `data/processed/` vía `src/atlas/build/{fichas,anexos,capitulos}.py`, ninguno a mano.
+
+**Dos limitaciones honestas de esta fase:**
+
+1. **No se ha podido verificar que el sitio realmente renderice.** El CLI de Quarto no está instalado en este entorno (`quarto --version` → command not found), así que `make site` no se ha ejecutado de verdad. La configuración de `_quarto.yml` (incluyendo el glob `paises/*.qmd` para el part de países) sigue sin probar contra un render real.
+2. **No hay mapas.** El plan pide un "mapa temático de la región iberoamericana" por capítulo y un "mapa de calor" — ambos requieren datos geoespaciales (shapefile de países iberoamericanos) y una librería como geopandas/plotly, que no están instaladas y que habría sido una instalación pesada fuera del alcance razonable de esta sesión. El semáforo tabular de P7 cubre la función de "mapa de calor o índices" que pide el plan como figura insignia, pero los mapas de coropletas por capítulo quedan pendientes.
+
+**Las fichas de país no incluyen población, PIB ni idiomas** — deliberadamente. El plan pide esos datos, pero no se han recolectado en ninguna fase anterior y el `Ejemplo país COLOMBIA.docx` de Drive los deja en blanco. Cada ficha dice explícitamente "no disponible" en vez de inventar una cifra de población o una lista de lenguas cooficiales.
+
+**Los capítulos de Publicaciones, Academia, Herramientas y Ciudadanía dicen explícitamente "sin fuente documental todavía"** en vez de simular contenido editorial — coherente con que sus indicadores de codificación (P5) están marcados `insufficient_evidence` en los 23 países.

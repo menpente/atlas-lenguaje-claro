@@ -1,0 +1,38 @@
+project:
+  type: book
+
+lang: es
+
+book:
+  title: "Atlas Iberoamericano del Lenguaje Claro"
+  author: "DelaFuente.AI"
+  date: last-modified
+  chapters:
+    - index.qmd
+    - metodologia.qmd
+    - part: "Capítulos"
+      chapters:
+        - capitulos/01-leyes.qmd
+        - capitulos/02-instituciones.qmd
+        - capitulos/03-proyectos.qmd
+        - capitulos/04-publicaciones.qmd
+        - capitulos/05-formacion.qmd
+        - capitulos/06-academia.qmd
+        - capitulos/07-herramientas.qmd
+        - capitulos/08-ciudadania.qmd
+    - part: "Países"
+      chapters: "paises/*.qmd"
+    - part: "Anexos"
+      chapters:
+        - anexos/bibliografia.qmd
+        - anexos/listado_leyes.qmd
+        - anexos/listado_instituciones.qmd
+        - anexos/quien_es_quien.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+  pdf:
+    documentclass: book
+    toc: true

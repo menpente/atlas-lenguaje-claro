@@ -1,0 +1,64 @@
+# Argentina {#sec-arg}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | 1.5 | rojo |
+| Instituciones | 2.0 | ámbar |
+| Proyectos | 2.5 | ámbar |
+| Publicaciones | sin datos | sin datos |
+| Formación | 3.0 | verde |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: 56.2/100 · **Cobertura de evidencia**: 42% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+- **Decreto 258/2019 - Aprobación del "Plan Nacional Anticorrupción (2019 – 2023)** (decreto, 2019) — [https://www.boletinoficial.gob.ar/detalleAviso/primera/205233/20190411](https://www.boletinoficial.gob.ar/detalleAviso/primera/205233/20190411)
+- **Decreto 891/2017 - Aprobación de las Buenas Prácticas en Materia de Simplificación.** (decreto, 2017) — [https://www.argentina.gob.ar/normativa/nacional/decreto-891-2017-285796/texto](https://www.argentina.gob.ar/normativa/nacional/decreto-891-2017-285796/texto)
+- **Resolución 57/2019 - Aprobación del Manual de Estilo para la redacción de textos normativos** (resolucion) — [https://www.argentina.gob.ar/normativa/nacional/decreto-258-2019-322013/texto](https://www.argentina.gob.ar/normativa/nacional/decreto-258-2019-322013/texto)
+- **Ley N.º 15.184 - Promoción del uso de lenguaje claro en textos legales y formales** (ley, 2020) — [https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2023/PDF2023/TP2023/2914-D-2023.pdf](https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2023/PDF2023/TP2023/2914-D-2023.pdf)
+- **Ley N.º 6.367 - Promoción del uso de lenguaje claro en los actos y documentos del sector público** (ley, 2020) — [https://boletinoficial.buenosaires.gob.ar/normativaba/norma/537022](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/537022)
+- **Ley N.º 104 - Ley de Acceso a la Información Pública** (ley, 1998) — [https://boletinoficial.buenosaires.gob.ar/normativaba/norma/982](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/982)
+- **Ley Nº 24.240 DEFENSA DEL CONSUMIDOR** (ley, 1993) — [https://www.argentina.gob.ar/normativa/nacional/ley-24240-638/actualizacion](https://www.argentina.gob.ar/normativa/nacional/ley-24240-638/actualizacion)
+
+### Instituciones registradas
+
+- Asociación Iberoamericana de Profesionales de la Comunicación Judicial (asociacion)
+- Ateneo Lenguaje Claro (otro)
+- CAL (Correctología y Asesoramiento Lingüístico) (otro)
+- Colegio de Traductores Públicos e Intérpretes de Buenos Aires (asociacion)
+- Escuela de Gobierno y capacitación legislativa. Secretaría legislativca H.C.S. de Mendoza (gobierno)
+- Facultad de Filosofía y Letras de Mendoza (universidad)
+- Gobierno de Argentina (gobierno)
+- Gobierno de la Ciudad Autónoma de Buenos Aires (gobierno)
+- Gobierno de la provincia de Buenos Aires (gobierno)
+- Gobierno Provincia de Buenos Aires (gobierno)
+- Juzgado PCyF CABA (poder_judicial)
+- Museo moderno (otro)
+- Observatorio de Lenguaje Claro de la Facultad de Derecho de Buenos Aires (universidad)
+- Presidencia de la Nación (otro)
+- Red de Lenguaje Claro de Argentina (red)
+- Suprema Corte de Justicia - Poder Judicial (poder_judicial)
+- Universidad de Palermo (universidad)
+- Universidad del Salvador (universidad)
+- Universidad del Salvador, Escuela de Letras (universidad)
+- Universidad Nacional de Córdoba (universidad)
+- Ministerio de Justicia y Derechos Humanos. Presidencia de la Nación (ministerio)
+- Poder Judicial de la Ciudad de Buenos Aires. Consejo de la Magistratura (poder_judicial)
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.

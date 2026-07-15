@@ -1,0 +1,35 @@
+# 02. Instituciones
+
+Las instituciones desempeñan un papel clave en la promoción y consolidación del lenguaje claro. Este capítulo reúne a academias, organismos públicos, universidades y entidades que, en distintos países, han impulsado proyectos, políticas y prácticas para garantizar el derecho a comprender.
+
+## Registros por país
+
+| País | Nº de registros |
+|---|---|
+| España | 288 |
+| Colombia | 37 |
+| Perú | 33 |
+| México | 27 |
+| Chile | 26 |
+| Puerto Rico | 23 |
+| Argentina | 22 |
+| Ecuador | 22 |
+| El Salvador | 15 |
+| Uruguay | 15 |
+| República Dominicana | 11 |
+| Paraguay | 10 |
+| Honduras | 6 |
+| Panamá | 6 |
+| Bolivia | 5 |
+| Guatemala | 5 |
+| Venezuela | 5 |
+| Cuba | 4 |
+| Costa Rica | 3 |
+| Estados Unidos | 3 |
+| Nicaragua | 2 |
+
+## Caso: Asociación Iberoamericana de Profesionales de la Comunicación Judicial (Argentina)
+
+> Argentina: La institución «Asociación Iberoamericana de Profesionales de la Comunicación Judicial» se encuentra en Buenos Aires. Su teléfono de contacto es -. Se puede contactar
+
+Fuente: `13FSED3pQflH87uQOCVKr1YYgIfoRBMGV` (registro `instituciones_0000`).

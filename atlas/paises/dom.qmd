@@ -1,0 +1,47 @@
+# República Dominicana {#sec-dom}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | 1.0 | rojo |
+| Instituciones | 2.0 | ámbar |
+| Proyectos | sin datos | sin datos |
+| Publicaciones | sin datos | sin datos |
+| Formación | 1.0 | rojo |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: 33.3/100 · **Cobertura de evidencia**: 17% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+- **Ley General de Salud, No. 42-01** (ley, 2001) — [https://faolex.fao.org/docs/pdf/dom75084.pdf](https://faolex.fao.org/docs/pdf/dom75084.pdf)
+
+### Instituciones registradas
+
+- Academia Dominicana de la Lengua (otro)
+- Asociación de Personas con Discapacidad Físico-Motora (ASODIFIMO) (asociacion)
+- Consejo del Poder Judicial y Suprema Corte de Justicia de la República Dominicana (poder_judicial)
+- Dirección de Compras y Contratación Pública (otro)
+- Escuela Nacional de la Judicatura (otro)
+- Gobierno de la República Dominicana (gobierno)
+- Instituto Lingüístico Dominicano (instituto)
+- Ministerio de la Presidencia. Dirección General de Desarrollo de la Comunidad (ministerio)
+- Ministerio Público de la República (ministerio)
+- Universidad Adventista Dominicana (UNAD) (universidad)
+- Universidad APEC (universidad)
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.

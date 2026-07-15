@@ -1,0 +1,66 @@
+# México {#sec-mex}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | 1.0 | rojo |
+| Instituciones | 2.5 | ámbar |
+| Proyectos | 2.5 | ámbar |
+| Publicaciones | sin datos | sin datos |
+| Formación | 2.5 | ámbar |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: 53.1/100 · **Cobertura de evidencia**: 29% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+- **Iniciativa Ley General sobre el uso del Lenguaje Claro** (proyecto_ley) — [https://www.eluniversal.com.mx/nacion/analiza-senado-ley-sobre-uso-de-lenguaje-claro-de-las-autoridades-federales/](https://www.eluniversal.com.mx/nacion/analiza-senado-ley-sobre-uso-de-lenguaje-claro-de-las-autoridades-federales/)
+- **Ley General de Transparencia y Acceso a la Información Pública** (ley, 2025) — [https://www.diputados.gob.mx/LeyesBiblio/pdf/LGTAIP.pdf](https://www.diputados.gob.mx/LeyesBiblio/pdf/LGTAIP.pdf)
+- **Ley Federal de Transparencia y Acceso a la Información Pública** (ley, 2024) — [https://www.diputados.gob.mx/LeyesBiblio/pdf/LFTAIP.pdf](https://www.diputados.gob.mx/LeyesBiblio/pdf/LFTAIP.pdf)
+- **LEY FEDERAL DE PROTECCIÓN AL CONSUMIDOR** (ley, 1992) — [https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPC.pdf](https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPC.pdf)
+
+### Instituciones registradas
+
+- Academia Mexicana de la Lengua (otro)
+- Barra Mexicana, Colegio de Abogados, A.C. (asociacion)
+- Bufete Oléa y Asociados (otro)
+- Cámara de Diputados (otro)
+- CENCADE (otro)
+- Consejo de Colegios de Profesionistas de México (CONSEPROF) (asociacion)
+- Consejo de la Judicatura General (otro)
+- Dirección general de transparencia y archivos (otro)
+- Escuela Federal de Formación Judicial del Poder Judicial de la Federación (poder_judicial)
+- Escuela Judicial Electoral del Tribunal Electoral del Poder Judicial de la Federación (poder_judicial)
+- Gobierno de México (gobierno)
+- Ilustre y Nacional Colegio de Abogados de México (INCAM) (asociacion)
+- Instituto Nacional Electoral (instituto)
+- Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI) (instituto)
+- Instituto Tecnológico Autónomo de México (ITAM) (instituto)
+- Nájera Danieli & Asociados (otro)
+- Secretaría de Relaciones Exteriores del Gobierno de México. Instituto Matías Romero de Estudios Diplomáticos (gobierno)
+- Secretaría de la Función Pública (otro)
+- Senado de la República (otro)
+- Suprema Corte de Justicia de la Nación y Consejo de la Judicatura Federal (otro)
+- Tribunal Supremo de Justicia de Jalisco (poder_judicial)
+- Universidad Autónoma de Nuevo León (universidad)
+- Universidad de Colima (universidad)
+- Universidad de las Américas Puebla (universidad)
+- Universidad Michoacana de San Nicolás de Hidalgo (UMSNH) (universidad)
+- Universidad Nacional Autónoma de México (UNAM) (universidad)
+- Universidad Nacional Autónoma de México (UNAM). Instituto Iberoamericano de Derecho Constitucional (universidad)
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.

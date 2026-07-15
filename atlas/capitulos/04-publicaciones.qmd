@@ -1,0 +1,7 @@
+# 04. Publicaciones
+
+**Sin fuente documental todavía.** No existe una carpeta dedicada a guías y manuales en el Drive del proyecto (ver metodologia.qmd, P2). Este capítulo se generará cuando exista una fuente que extraer.
+
+## Registros por país
+
+Sin registros verificados todavía para este pilar.

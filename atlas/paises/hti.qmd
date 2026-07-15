@@ -1,0 +1,34 @@
+# Haití {#sec-hti}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | sin datos | sin datos |
+| Instituciones | sin datos | sin datos |
+| Proyectos | sin datos | sin datos |
+| Publicaciones | sin datos | sin datos |
+| Formación | sin datos | sin datos |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: sin datos · **Cobertura de evidencia**: 0% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+Sin leyes verificadas todavía para este país.
+
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.

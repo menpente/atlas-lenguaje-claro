@@ -1,0 +1,41 @@
+# Bolivia {#sec-bol}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | sin datos | sin datos |
+| Instituciones | 1.0 | rojo |
+| Proyectos | sin datos | sin datos |
+| Publicaciones | sin datos | sin datos |
+| Formación | sin datos | sin datos |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: 25.0/100 · **Cobertura de evidencia**: 4% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+- **Ley General de Derechos y Políticas Lingüísticas** (ley, 2012) — [https://www.asfi.gob.bo/images/MARCO_NORMATIVO/SERV_FINAN_/D.S._4566.pdf](https://www.asfi.gob.bo/images/MARCO_NORMATIVO/SERV_FINAN_/D.S._4566.pdf)
+
+### Instituciones registradas
+
+- Academia Boliviana de la Lengua (otro)
+- Federación Nacional de Ciegos de Bolivia - FENACIEBO (otro)
+- Fundación Universidad Privada de Santa Cruz de la Sierra (UPSA) (universidad)
+- Gobierno de Bolivia (gobierno)
+- Universidad Mayor, Real y Pontificia de San Francisco Xavier de Chuquisaca (universidad)
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.

@@ -1,0 +1,51 @@
+# Uruguay {#sec-ury}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | sin datos | sin datos |
+| Instituciones | 2.0 | ámbar |
+| Proyectos | 1.5 | rojo |
+| Publicaciones | sin datos | sin datos |
+| Formación | 2.0 | ámbar |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: 45.8/100 · **Cobertura de evidencia**: 21% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+Sin leyes verificadas todavía para este país.
+
+### Instituciones registradas
+
+- Academia Nacional de Letras de Uruguay (otro)
+- Asociación de Escribanos del Uruguay (asociacion)
+- Asociación Uruguaya de Correctores de Estilo (AUCE) (asociacion)
+- Cámara de Senadores de la República Oriental del Uruguay (otro)
+- Colegio de Abogados del Uruguay (asociacion)
+- Colegio de Contadores, Economistas y Administradores del Uruguay (CCEAU) (asociacion)
+- Colegio de Traductores Públicos del Uruguay (asociacion)
+- Comisión Administrativa del Poder Legislativo (comision)
+- Cruz Roja Uruguaya (otro)
+- Dirección Nacional de Impresiones y Publicaciones Oficiales (IMPO) (otro)
+- Fundación de Cultura Universitaria (fundacion)
+- IMPO - Centro de Información Oficial. (otro)
+- Red Uruguaya de Lenguaje Jurídico CLaro (red)
+- Suprema Corte de Justicia de la República Oriental del Uruguay (otro)
+- Universidad de Montevideo (universidad)
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.

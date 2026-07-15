@@ -1,0 +1,69 @@
+# Perú {#sec-per}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | sin datos | sin datos |
+| Instituciones | 2.0 | ámbar |
+| Proyectos | 2.0 | ámbar |
+| Publicaciones | sin datos | sin datos |
+| Formación | 2.0 | ámbar |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: 50.0/100 · **Cobertura de evidencia**: 25% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+- **Decreto Legislativo N° 1342 - Promueve la transparencia y el derecho de acceso de la ciudadanía al contenido de las decisiones jurisdiccionales** (decreto, 2017) — [https://lpderecho.pe/d-l-1342-operadores-del-sistema-de-justicia-evitaran-usar-terminos-en-latin-o-cualquier-otro-arcaismo-que-dificulte-la-comprension-de-las-expresiones-y-terminos-legales/](https://lpderecho.pe/d-l-1342-operadores-del-sistema-de-justicia-evitaran-usar-terminos-en-latin-o-cualquier-otro-arcaismo-que-dificulte-la-comprension-de-las-expresiones-y-terminos-legales/)
+
+### Instituciones registradas
+
+- Academia Nacional de Medicina del Perú (otro)
+- Academia Peruana de la Lengua (otro)
+- Agustín de Arequipa (UNSA) (otro)
+- Asociación Civil Consejo de Seguridad y Participación Ciudadana (asociacion)
+- Asociación de Correctores de Textos del Perú (Ascot Perú) (asociacion)
+- Baxel Consultores (otro)
+- Carrera de Traducción e Interpretación Profesional de la Universidad Peruana de Ciencias Aplicadas (UPC) (universidad)
+- Colegio de Geógrafos del Perú (asociacion)
+- Colegio de Traductores del Perú (CTP) (asociacion)
+- Colegio Profesional de Antropólogos del Perú (CPAP) (asociacion)
+- Corte Suprema de Justicia de la República y Poder Judicial del Perú (poder_judicial)
+- Departamento Académico de Literatura y Lingüística de la Universidad Nacional de San Agustín de Arequipa (universidad)
+- Escuela Peruana de Lenguaje Claro (otro)
+- Gobierno de Perú (gobierno)
+- Instituto de Terminología de la Universidad Ricardo Palma (TermPalma) (universidad)
+- Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI) (instituto)
+- Ministerio de Comercio Exterior y Turismo. Centro de Formación en Turismo (CENFOTUR) (ministerio)
+- Ministerio de Desarrollo Agrario y Riego. Instituto Nacional de Innovación Agraria (ministerio)
+- Ministerio de Relaciones Exteriores. Academia Diplomática del Perú "Javier Pérez de Cuéllar" (ministerio)
+- Poder Judicial del Perú (poder_judicial)
+- Red Peruana de Lenguaje Claro Oficial (red)
+- Universidad Católica de Santa María (universidad)
+- Universidad de Lima (universidad)
+- Universidad del Pacífico (universidad)
+- Universidad Nacional de Cajamarca (universidad)
+- Universidad Nacional de Piura (universidad)
+- Universidad Nacional de San Antonio Abad del Cusco (universidad)
+- Universidad Nacional del Santa (universidad)
+- Universidad Nacional José María Arguedas (universidad)
+- Universidad Nacional Mayor de San Marcos. Instituto de Investigaciones de Lingüística Aplicada (CILA) (universidad)
+- Universidad Nacional Tecnológica de Lima Sur (universidad)
+- Universidad Peruana de Ciencias Aplicadas (universidad)
+- Universidad Ricardo Palma. Instituto de Terminología Ricardo Palma (universidad)
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.

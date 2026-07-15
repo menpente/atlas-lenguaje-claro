@@ -1,0 +1,41 @@
+# Guatemala {#sec-gtm}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | sin datos | sin datos |
+| Instituciones | sin datos | sin datos |
+| Proyectos | sin datos | sin datos |
+| Publicaciones | sin datos | sin datos |
+| Formación | 1.0 | rojo |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: 25.0/100 · **Cobertura de evidencia**: 4% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+Sin leyes verificadas todavía para este país.
+
+### Instituciones registradas
+
+- Academia de Geografía e Historia de Guatemala (otro)
+- Academia Guatemalteca de la Lengua (otro)
+- Centro de Formación de la Cooperación Española de La Antigua (otro)
+- Consejo Nacional para la Atención de las Personas con Discapacidad (CONADI) (otro)
+- Defensoría Penal Pública (otro)
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.

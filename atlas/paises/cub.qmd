@@ -1,0 +1,40 @@
+# Cuba {#sec-cub}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | sin datos | sin datos |
+| Instituciones | 2.0 | ámbar |
+| Proyectos | 1.0 | rojo |
+| Publicaciones | sin datos | sin datos |
+| Formación | sin datos | sin datos |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: 37.5/100 · **Cobertura de evidencia**: 8% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+- **Ley de Comunicación Social** (ley, 2023) — [https://www.gacetaoficial.gob.cu/sites/default/files/goc-2024-o48_0.pdf](https://www.gacetaoficial.gob.cu/sites/default/files/goc-2024-o48_0.pdf)
+
+### Instituciones registradas
+
+- Academia Cubana de la Lengua (otro)
+- Gobierno de la República de Cuba (gobierno)
+- Instituto de Historia de Cuba (instituto)
+- Revista Cubana de Salud Pública (otro)
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.

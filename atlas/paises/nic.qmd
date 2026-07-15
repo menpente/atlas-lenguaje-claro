@@ -1,0 +1,38 @@
+# Nicaragua {#sec-nic}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | sin datos | sin datos |
+| Instituciones | 1.0 | rojo |
+| Proyectos | sin datos | sin datos |
+| Publicaciones | sin datos | sin datos |
+| Formación | sin datos | sin datos |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: 25.0/100 · **Cobertura de evidencia**: 4% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+- **Ley No. 621, Ley de Acceso a la Información Pública** (ley, 2007) — [https://www.informatica-juridica.com/anexos/legislacion-de-nicaragua-ley-no-621-de-16-de-mayo-de-2007-de-acceso-a-la-informacion-publica-la-gaceta-diario-oficial-no-118-de-22-de-junio-de-2007/](https://www.informatica-juridica.com/anexos/legislacion-de-nicaragua-ley-no-621-de-16-de-mayo-de-2007-de-acceso-a-la-informacion-publica-la-gaceta-diario-oficial-no-118-de-22-de-junio-de-2007/)
+
+### Instituciones registradas
+
+- Academia Nicaragüense de la Lengua (otro)
+- Gobierno de Nicaragua (gobierno)
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.

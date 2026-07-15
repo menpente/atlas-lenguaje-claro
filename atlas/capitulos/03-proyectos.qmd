@@ -1,0 +1,25 @@
+# 03. Proyectos
+
+Los proyectos constituyen el motor práctico del lenguaje claro. Son las experiencias piloto, las guías, los libros y los recursos que buscan transformar la comunicación en distintos ámbitos sociales, jurídicos y administrativos.
+
+## Registros por país
+
+| País | Nº de registros |
+|---|---|
+| España | 48 |
+| Colombia | 22 |
+| Argentina | 17 |
+| Chile | 13 |
+| México | 11 |
+| Costa Rica | 2 |
+| Ecuador | 2 |
+| Paraguay | 2 |
+| Perú | 2 |
+| Uruguay | 2 |
+| Cuba | 1 |
+
+## Caso: CLAPPI (Argentina)
+
+> El proyecto «CLAPPI» fue desarrollado en 2024 por Gobierno de la ciudad de Buenos Aires. Tuvo lugar en Argentina en modalidad online. El área principal
+
+Fuente: `1ssEsITh2TCm7qI7OLK79BNTeX26m39Y6` (registro `proyectos_0000`).

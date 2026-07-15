@@ -1,0 +1,58 @@
+# Ecuador {#sec-ecu}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | sin datos | sin datos |
+| Instituciones | 1.5 | rojo |
+| Proyectos | 1.5 | rojo |
+| Publicaciones | sin datos | sin datos |
+| Formación | 1.0 | rojo |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: 33.3/100 · **Cobertura de evidencia**: 21% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+- **Ley Orgánica de Transparencia y Acceso a la Información Pública (LOTAIP)** (ley, 2004) — [https://www.dpe.gob.ec/wp-content/dpedocumentoslotaip/LOTAIPyReglamento-2015.pdf](https://www.dpe.gob.ec/wp-content/dpedocumentoslotaip/LOTAIPyReglamento-2015.pdf)
+
+### Instituciones registradas
+
+- Academia Ecuatoriana de Derecho Societario (AEDS) (otro)
+- Academia Ecuatoriana de la Lengua (otro)
+- Consejo de Desarrollo y Promoción de la Información y Comunicación (otro)
+- Consejo de Educación Superior (CES) (otro)
+- Consejo de la Judicatura de Ecuador (otro)
+- Consejo Nacional para la Igualdad de Discapacidades (CONADIS) (otro)
+- Corte Nacional de Justicia (otro)
+- Defensoría del Pueblo de Ecuador (otro)
+- Federación Ecuatoriana pro Atención a la Persona con Deficiencia Mental (otro)
+- Fundación Ciudadanía y Desarrollo (fundacion)
+- Fundación de Ayuda por Internet (FUNDAPI) (fundacion)
+- Fundación Esquel (fundacion)
+- Gobierno de la República de Ecuador (gobierno)
+- Instituto de Altos Estudios Nacionales (IAEN) (instituto)
+- Ministerio de Telecomunicaciones y de la Sociedad de la Información (ministerio)
+- Presidencia de la República de Ecuador (otro)
+- Red Ecuatoriana de Pedagogía (red)
+- Secretaría de Educación Superior, Ciencia, Tecnología e Innovación. Servicio Nacional de Derechos Intelectuales (SENADI) (otro)
+- Universidad Andina Simón Bolivar (universidad)
+- Universidad Nacional de Loja (universidad)
+- Universidad Politécnica Salesiana (universidad)
+- Universidad Técnica Particular de Loja (universidad)
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.

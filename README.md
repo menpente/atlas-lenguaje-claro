@@ -57,7 +57,25 @@ make test      # ruff + pytest
   (Leyes, Proyectos, Cursos, Instituciones, Encuentros) vía parsers
   deterministas por regex (`src/atlas/intake/extract.py`), no LLM — ver
   `atlas/metodologia.qmd`. 1024 registros candidatos en
-  `data/interim/records/`, todos con `fuente_file_id` + `cita` verbatim,
-  pendientes de revisión humana (P4). Publicaciones/Herramientas/
-  Ciudadanía siguen sin registros: no hay fuente todavía.
-- P4 en adelante: ver plan.
+  `data/interim/records/`, todos con `fuente_file_id` + `cita` verbatim.
+- **P4 Revisión:** control de calidad **automatizado**, no revisión
+  humana (no hay una persona disponible en este entorno) —
+  `src/atlas/intake/review.py`. 1023/1024 candidatos promovidos a
+  `data/processed/records/` con una columna `confianza` marcando los
+  campos derivados por heurística.
+- **P5 Codificación:** `src/atlas/build/score.py` codifica 552 filas
+  (23 países × 8 pilares × 3 indicadores) con una regla de conteo
+  determinista y documentada, no una lectura fina de cada ancla.
+- **P6 Fiabilidad:** **NO completado.** Requiere un segundo codificador
+  independiente; no se ha fabricado uno ni un Krippendorff's α falso —
+  ver `data/coding/adjudication.md`.
+- **P7 Semáforo + índice:** hecho — `data/processed/pldi.parquet`,
+  `semaforo.html`, sensibilidad drop-one-pillar. Hallazgo importante:
+  Brasil y Haití tienen 0% de cobertura pese a estar en el universo.
+- **P8 Atlas:** sitio Quarto generado (`atlas/_quarto.yml`, 8 capítulos,
+  23 fichas, 4 anexos), pero **el render no se ha podido verificar**
+  (Quarto CLI no instalado en este entorno). Sin mapas geoespaciales
+  (fuera de alcance de esta sesión).
+- **P9 Study B / P10 Release:** ver `atlas/metodologia.qmd` — ambos
+  gateados por el P6 pendiente; no ejecutados. `LICENSE-CODE`/
+  `LICENSE-DATA` ya cubren la parte de licencia de P10.

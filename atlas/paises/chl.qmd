@@ -1,0 +1,63 @@
+# Chile {#sec-chl}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | 1.0 | rojo |
+| Instituciones | 2.0 | ámbar |
+| Proyectos | 3.0 | verde |
+| Publicaciones | sin datos | sin datos |
+| Formación | 2.0 | ámbar |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: 50.0/100 · **Cobertura de evidencia**: 33% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+- **Ley N° 20.285 sobre Acceso a la Información Pública** (ley, 2008) — [https://www.bcn.cl/leychile/navegar?idNorma=276363&idParte=](https://www.bcn.cl/leychile/navegar?idNorma=276363&idParte=)
+- **LEY N° 19.496, QUE ESTABLECE NORMAS SOBRE PROTECCIÓN DE LOS DERECHOS DE LOS CONSUMIDORES** (decreto, 2019) — [https://www.bcn.cl/leychile/navegar?idNorma=1160403](https://www.bcn.cl/leychile/navegar?idNorma=1160403)
+
+### Instituciones registradas
+
+- Academia Chilena de la Lengua (otro)
+- Academia de Ciencias Sociales, Políticas y Morales del Instituto de Chile (instituto)
+- Archivo General de la Nación (otro)
+- Banco Central de Chile (otro)
+- Biblioteca del Congreso Nacional de Chile (otro)
+- Cátedra Latinoamericana de Lenguaje Jurídico Claro (otro)
+- Centro de Estudios de Justicia de las Américas (otro)
+- Centro Nacional de Inteligencia Artificial (CENIA) (otro)
+- Comisión de Lenguaje Claro del Poder Judicial de Chile (poder_judicial)
+- Corporación de Asistencia Judicial de la Región de Valparaíso (otro)
+- Corte Suprema de Justicia de Chile (otro)
+- El Mercurio (otro)
+- Gobierno de Chile (gobierno)
+- Instituto Iberoamericano de Derecho Procesal (instituto)
+- Poder Judical Chile (otro)
+- Pontifica Universidad Católica de Valparaíso (universidad)
+- Pontificia Universidad Católica de Valparaíso. Núcleo de Lenguaje Claro y Derecho de la Facultad de Derecho (universidad)
+- Primer Tribunal Ambiental (poder_judicial)
+- Red de Lenguaje Claro de Chile (red)
+- República de Chile (otro)
+- Senado de la República de Chile (otro)
+- Servicio de Impuestos Internos (otro)
+- Superintendencia de Salud (otro)
+- Tercer Tribunal Ambiental (poder_judicial)
+- Universidad de la Serena (universidad)
+- Comisión Lneguaje Claro Chile (comision)
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.

@@ -1,0 +1,59 @@
+# Puerto Rico {#sec-pri}
+
+## Datos básicos
+
+Población, idiomas oficiales y cooficiales, variantes del español: **no disponible
+todavía** — no se ha recolectado esta información en el intake (ver
+`data/coding/country_universe.csv`).
+
+## Semáforo de implantación
+
+| Pilar | Puntuación media | Estado |
+|---|---|---|
+| Leyes | sin datos | sin datos |
+| Instituciones | 1.5 | rojo |
+| Proyectos | sin datos | sin datos |
+| Publicaciones | sin datos | sin datos |
+| Formación | 1.0 | rojo |
+| Academia | sin datos | sin datos |
+| Herramientas | sin datos | sin datos |
+| Ciudadanía | sin datos | sin datos |
+
+**Índice**: 31.2/100 · **Cobertura de evidencia**: 12% de los 24
+indicadores tienen al menos un registro verificado.
+
+## Instrumentos clave
+
+Sin leyes verificadas todavía para este país.
+
+### Instituciones registradas
+
+- Academia Puertorriqueña de Jurisprudencia y Legislación (otro)
+- Academia Puertorriqueña de la Historia (otro)
+- Academia Puertorriqueña de la Lengua Española (otro)
+- Ateneo Puertorriqueño (otro)
+- Colegio de Abogados y Abogadas de Puerto Rico (asociacion)
+- Escuela de Medicina. Recinto de Ciencias Médicas (otro)
+- Instituto de Estadísticas de Puerto Rico (instituto)
+- Instituto de Literatura Puertorriqueña (instituto)
+- Recinto de Aguadilla (otro)
+- Recinto de Arecibo (otro)
+- Recinto de Bayamón (otro)
+- Recinto de Carolina (otro)
+- Recinto de Cayey (otro)
+- Recinto de Humacao (otro)
+- Recinto de Mayagüez (otro)
+- Recinto de Ponce (otro)
+- Recinto de Río Piedras (otro)
+- Recinto de Utuado (otro)
+- Servicios Legales de Puerto Rico (otro)
+- Tribunal Supremo de Puerto Rico (poder_judicial)
+- Universidad de Puerto Rico (universidad)
+- Universidad Interamericana de Puerto Rico (universidad)
+- Universidad Politécnica de Puerto Rico (universidad)
+
+## Nota metodológica
+
+Ficha generada automáticamente desde `data/processed/` el 2026-07-13. No editar a
+mano — cualquier corrección debe hacerse en los registros de origen
+(`data/processed/records/`) y regenerar con `make index`.
