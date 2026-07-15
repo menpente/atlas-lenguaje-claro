@@ -56,3 +56,35 @@ Los cinco documentos fuente disponibles (Proyectos, Cursos, Leyes, Instituciones
 **Resultado:** 65 leyes, 122 proyectos, 54 cursos, 569 instituciones, 214 encuentros — 1024 registros candidatos, 43 descartados con motivo registrado en `data/interim/records/_dropped.csv`. Todos con `fuente_file_id` + `cita` verbatim (≤25 palabras) y `verified` sin fijar: son candidatos para la revisión humana de P4, no verdad establecida.
 
 **Nota de privacidad:** algunas citas de `instituciones.csv` incluyen un teléfono o correo genérico de la institución (conmutador de un ministerio, juzgado o universidad) porque cae dentro de las primeras 25 palabras verbatim. Se considera dato público institucional, no personal — coherente con que el propio índice del Atlas pide un anexo "Quién es quién" de instituciones. Distinto es el caso de `COPIA BD DBeaver.xlsx` (P2), que lista teléfonos y correos de personas físicas identificadas por nombre y apellido: ese archivo se mantiene fuera de `data/raw/` en el repositorio (gitignored) y no se ha usado como fuente de extracción en P3.
+
+## 2026-07-13 — P4: control de calidad automatizado, NO revisión humana
+
+**Esto es la desviación metodológica más importante del proyecto hasta ahora, y hay que leerla con atención.** El plan (sección 4) define P4 como: *"Emit a review sheet per pillar... where a human sets `verified ∈ {ok, fix, drop}`... Only `verified == ok` rows flow into `data/processed/records/`."* No hay una persona distinta del extractor disponible en esta sesión para hacer esa revisión. Ante la instrucción del propietario de completar todas las fases, se optó por lo siguiente en vez de simular una revisión humana que no ocurrió:
+
+- `src/atlas/intake/review.py` aplica un control **determinista y heurístico**: descarta duplicados exactos (mismo país + nombre + fuente) y registros cuyo campo definitorio (título/nombre) está vacío o es solo puntuación. Encontró y descartó 1 duplicado real (`Universidad EAFIT`, Colombia, repetida en `instituciones.csv`).
+- Todo lo demás se marca `verified="ok"` y pasa a `data/processed/records/` — es decir, **1023 de 1024 candidatos de P3 están en `data/processed/` sin que un humano los haya mirado uno por uno.**
+- Se añadió una columna `confianza` (`alta`/`baja`) para señalar los campos que P3 derivó por heurística en vez de leer directamente del texto: **todas las 65 leyes** (`vinculante` es una inferencia a partir de `tipo`, no una lectura del articulado) y **263 de 568 instituciones** (`tipo="otro"`, el nombre no contenía ninguna palabra clave reconocible). Estas son las primeras candidatas a revisión si en algún momento hay una persona disponible para hacerlo.
+
+**Lo que esto significa para el resto del Atlas:** cualquier número que aparezca en el semáforo, el índice o las fichas de país a partir de aquí hereda esta limitación. No se ha inventado ningún dato — cada registro sigue teniendo `fuente_file_id` + `cita` verbatim trazable — pero la garantía de calidad de "verificado por una persona" que el plan exige explícitamente **no se cumple todavía**. Antes de cualquier publicación pública del Atlas, alguien debe revisar en serio al menos las filas marcadas `confianza="baja"`.
+
+## 2026-07-13 — P5: codificación por regla determinista de conteo
+
+El plan permite explícitamente, para la fiabilidad de P6, "an LLM coder under the identical rubric with sources attached... if documented". `src/atlas/build/score.py` extiende ese mismo principio a la codificación primaria, documentándolo con la misma franqueza: **no es una lectura cualitativa de cada ancla de `rubric.md` contra el texto de cada registro** (eso requeriría releer 1023 registros uno por uno contra 24 anclas por país), sino una regla de conteo idéntica para todos los indicadores con evidencia disponible:
+
+```
+0 registros que cumplen el filtro del indicador -> 0
+1 registro  -> 1
+2-3         -> 2
+4-6         -> 3
+7+          -> 4
+```
+
+Cada indicador tiene un filtro explícito sobre los campos ya extraídos (p. ej. 1a filtra `leyes` por `ambito == "Lenguaje Claro"`; 2c filtra `instituciones` por `tipo == "poder_judicial"`) — no una heurística nueva por país, la misma regla para los 23. Todas las filas se codifican `confidence="baja"` y `coder` identifica explícitamente que el codificador es este modelo, no una persona.
+
+**Los 4 pilares sin documento fuente (Publicaciones, Academia, Herramientas, Ciudadanía)** se codifican `score=0, insufficient_evidence=True` en los 23 países — 276 de 552 filas — porque un cero aquí significa "no hemos buscado todavía", no "buscamos y no encontramos" (la ancla real de nivel 0 exige "búsqueda documentada"). Estas filas deben excluirse del índice agregado en P7, no promediarse como ceros reales.
+
+**Limitación honesta de la regla de conteo:** no distingue "vinculante" de "no vinculante" dentro del filtro de 1a/1b más allá de lo que ya capturó P3 por heurística (de confianza baja, ver P4), ni verifica que el conteo alto realmente signifique "institucionalizado" en el sentido del ancla de nivel 3-4 — solo que hay ese número de registros verificados que cumplen el filtro. España concentra la mayoría de las puntuaciones más altas simplemente porque es, con diferencia, el país mejor documentado en el manuscrito existente — **esto es un artefacto de cobertura de las fuentes disponibles, no necesariamente una medida real de qué país tiene más lenguaje claro implantado.** Este sesgo de cobertura debe corregirse repoblando Drive con fuentes de los otros 22 países antes de tratar el índice como comparable entre países.
+
+## 2026-07-13 — P6: NO completado — ver `data/coding/adjudication.md`
+
+El criterio de aceptación de P6 (doble codificación independiente del 20% + Krippendorff's α ≥ 0.67) no se cumple y no se ha fingido que se cumple. El detalle completo — qué haría falta para cerrarlo de verdad, y por qué no se ha fabricado un segundo codificador ni un α falso — está en `data/coding/adjudication.md`. En resumen: solo hay un codificador real hasta ahora (este modelo, en P5), y generar una "segunda opinión" con el mismo modelo sobre la misma evidencia no mide fiabilidad independiente, así que no se hizo. Esta fase queda explícitamente pendiente de que una persona (o un segundo modelo distinto) haga la doble codificación real.
