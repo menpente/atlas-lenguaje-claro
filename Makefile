@@ -26,7 +26,7 @@ generate:
 	uv run python -m atlas.build.capitulos
 
 site: generate
-	cd atlas && quarto render
+	uv run --with jupyter --with pyyaml bash -c 'cd atlas && QUARTO_PYTHON=$$(which python) quarto render --to html'
 
 clean:
 	rm -rf .pytest_cache **/__pycache__
