@@ -21,7 +21,30 @@ book:
         - capitulos/07-herramientas.qmd
         - capitulos/08-ciudadania.qmd
     - part: "Países"
-      chapters: "paises/*.qmd"
+      chapters:
+        - paises/arg.qmd
+        - paises/bol.qmd
+        - paises/bra.qmd
+        - paises/chl.qmd
+        - paises/col.qmd
+        - paises/cri.qmd
+        - paises/cub.qmd
+        - paises/dom.qmd
+        - paises/ecu.qmd
+        - paises/esp.qmd
+        - paises/gtm.qmd
+        - paises/hnd.qmd
+        - paises/hti.qmd
+        - paises/mex.qmd
+        - paises/nic.qmd
+        - paises/pan.qmd
+        - paises/per.qmd
+        - paises/pri.qmd
+        - paises/pry.qmd
+        - paises/slv.qmd
+        - paises/ury.qmd
+        - paises/usa.qmd
+        - paises/ven.qmd
     - part: "Anexos"
       chapters:
         - anexos/bibliografia.qmd

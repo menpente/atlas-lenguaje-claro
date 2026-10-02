@@ -9,4 +9,5 @@ __pycache__/
 # emails, and no extractor uses it (see metodologia.qmd, P2 privacy note).
 data/raw/1nRWn8rBwBtyiOSdMZwssUZ_Fgm2Th6I_.txt
 _site/
+_book/
 .quarto/
