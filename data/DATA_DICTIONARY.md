@@ -2,9 +2,9 @@
 
 Todo número o afirmación del Atlas debe ser trazable a un archivo de esta carpeta. Este documento describe qué contiene cada uno.
 
-## `raw/` (inmutable, no versionado en git)
+## `raw/` (inmutable, versionado salvo un archivo)
 
-Caché local de texto extraído de Drive, un `.txt` por `file_id`. No se versiona porque algunas fuentes contienen datos de contacto de personas físicas (ver `atlas/metodologia.qmd`, nota de privacidad). Regenerar con `make intake` (requiere `GOOGLE_APPLICATION_CREDENTIALS`) o ver `src/atlas/intake/build_manifest_snapshot.py` para la captura de referencia del 2026-07-13.
+Caché de texto extraído de Drive, un `.txt` por `file_id`. Se versiona para que `extract.py` y sus tests sean reproducibles en un checkout limpio (CI incluido). Se excluye únicamente la hoja de contactos (`1nRWn8rBwBtyiOSdMZwssUZ_Fgm2Th6I_.txt`) porque contiene datos de contacto de personas físicas (ver `atlas/metodologia.qmd`, nota de privacidad). Regenerar con `make intake` (requiere `GOOGLE_APPLICATION_CREDENTIALS`) o ver `src/atlas/intake/build_manifest_snapshot.py` para la captura de referencia del 2026-07-13.
 
 ## `interim/`
 

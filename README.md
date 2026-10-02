@@ -38,7 +38,8 @@ atlas/          # sitio Quarto (es/)
 
 ```
 make install   # uv sync
-make test      # ruff + pytest
+make lint      # ruff
+make test      # pytest
 ```
 
 ## Estado
